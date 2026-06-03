@@ -15,33 +15,50 @@
   .meta-card { background: #fff; border-radius: 10px; padding: 16px 24px; flex: 1; min-width: 140px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
   .meta-card .num { font-size: 32px; font-weight: 700; color: #6b3fa0; }
   .meta-card .label { font-size: 13px; color: #888; margin-top: 2px; }
-  .search { width: 100%; padding: 12px 16px; border: 2px solid #ddd; border-radius: 8px; font-size: 15px; margin-bottom: 20px; }
+  .search { width: 100%; padding: 12px 16px; border: 2px solid #ddd; border-radius: 8px; font-size: 15px; margin-bottom: 12px; }
   .search:focus { outline: none; border-color: #6b3fa0; }
+
+  .controls { display: flex; gap: 8px; align-items: center; margin-bottom: 20px; flex-wrap: wrap; }
+  .controls .search-wrap { flex: 1; min-width: 200px; }
+  .controls .search-wrap input { width: 100%; padding: 10px 14px; border: 2px solid #ddd; border-radius: 8px; font-size: 14px; }
+  .controls .search-wrap input:focus { outline: none; border-color: #6b3fa0; }
+  .toggle-btn { display: flex; align-items: center; gap: 8px; padding: 10px 18px; border: 2px solid #6b3fa0; border-radius: 8px; background: #fff; color: #6b3fa0; font-size: 13px; font-weight: 600; cursor: pointer; white-space: nowrap; transition: all .15s; }
+  .toggle-btn:hover { background: #f3edff; }
+  .toggle-btn.active { background: #6b3fa0; color: #fff; }
+  .toggle-btn .icon { font-size: 16px; }
+
   .category { background: #fff; border-radius: 10px; margin-bottom: 12px; box-shadow: 0 1px 4px rgba(0,0,0,.08); overflow: hidden; }
   .category-header { display: flex; align-items: center; padding: 14px 18px; cursor: pointer; font-size: 16px; font-weight: 600; user-select: none; }
   .category-header:hover { background: #faf5ff; }
   .category-header .arrow { margin-right: 10px; transition: transform .2s; }
   .category-header .arrow.open { transform: rotate(90deg); }
   .category-header .count { margin-left: auto; font-size: 12px; font-weight: 400; color: #999; }
+  .cat-body { }
   .subcat { border-top: 1px solid #f0f0f0; }
   .subcat-header { display: flex; align-items: center; padding: 10px 18px 10px 36px; cursor: pointer; font-size: 14px; font-weight: 500; user-select: none; }
   .subcat-header:hover { background: #faf5ff; }
   .subcat-header .arrow { margin-right: 8px; transition: transform .2s; }
   .subcat-header .arrow.open { transform: rotate(90deg); }
   .subcat-header .count { margin-left: auto; font-size: 11px; color: #999; }
+  .subcat-body { }
+
   .products { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; padding: 10px 18px 18px; }
-  .product { background: #fafafa; border-radius: 8px; padding: 10px; border: 1px solid #eee; }
+  .product { background: #fafafa; border-radius: 8px; padding: 10px; border: 1px solid #eee; position: relative; }
   .product img { width: 100%; aspect-ratio: 1; object-fit: contain; background: #fff; border-radius: 6px; margin-bottom: 6px; }
   .product .name { font-size: 12px; font-weight: 500; line-height: 1.3; margin-bottom: 2px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   .product .subtext { font-size: 11px; color: #888; margin-bottom: 4px; }
-  .product .price-row { display: flex; align-items: center; gap: 6px; }
+  .product .price-row { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
   .product .price { font-size: 15px; font-weight: 700; color: #6b3fa0; }
   .product .mrp { font-size: 12px; color: #aaa; text-decoration: line-through; }
-  .product .origin { font-size: 10px; color: #999; float: right; }
+  .product .origin { font-size: 10px; color: #999; }
+  .product .unit-price { font-size: 10px; color: #e67e22; font-weight: 600; background: #fef3e7; padding: 1px 6px; border-radius: 4px; white-space: nowrap; }
+  .product .rank-badge { position: absolute; top: 4px; left: 4px; background: #6b3fa0; color: #fff; font-size: 9px; font-weight: 700; width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; opacity: .85; }
+  .product .unit-type-badge { position: absolute; top: 4px; right: 4px; background: #555; color: #fff; font-size: 8px; padding: 2px 5px; border-radius: 3px; opacity: .7; text-transform: uppercase; }
   .hide { display: none; }
   .loading { text-align: center; padding: 60px; color: #999; }
   .footer { text-align: center; padding: 30px; color: #aaa; font-size: 12px; }
   .error { text-align: center; padding: 60px; color: #e74c3c; }
+  .unit-group-label { font-size: 11px; font-weight: 600; color: #888; padding: 6px 18px 2px; text-transform: uppercase; letter-spacing: .5px; }
 </style>
 </head>
 <body>
@@ -51,14 +68,20 @@
 </header>
 <div class="container">
   <div class="meta" id="meta"></div>
-  <input class="search" id="search" placeholder="Search products..." oninput="render()">
+  <div class="controls">
+    <div class="search-wrap"><input id="search" placeholder="Search products..." oninput="render()"></div>
+    <button class="toggle-btn" id="valueToggle" onclick="toggleValueSort()">
+      <span class="icon">&#9661;</span> Value Sort
+    </button>
+  </div>
   <div id="content"><div class="loading">Loading Grocery.json...</div></div>
 </div>
-<div class="footer">Data sourced from <a href="https://chaldal.com" target="_blank">chaldal.com</a> · Generated by GitHub Actions</div>
+<div class="footer">Data sourced from <a href="https://chaldal.com" target="_blank">chaldal.com</a> &middot; Generated by GitHub Actions</div>
 
 <script>
 let data = null;
 let productLookup = [];
+let valueSort = false;
 
 fetch('Grocery.json')
   .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
@@ -68,11 +91,125 @@ fetch('Grocery.json')
 function buildLookup() {
   productLookup = [];
   function walk(node) {
-    for (const p of (node.products || [])) productLookup.push({ ...p, _cat: node.name });
+    for (const p of (node.products || [])) {
+      enrichProduct(p);
+      productLookup.push({ ...p, _cat: node.name });
+    }
     for (const s of (node.subcategories || [])) walk(s);
   }
   for (const c of data.categories) walk(c);
 }
+
+// ── Unit parsing & normalization ──────────────────────────────────
+
+const UNIT_PATTERNS = [
+  // Weight: kg, gm, g
+  { re: /^([\d.]+)\s*(kg|gm|g)\b/i, group: 'weight', base: 1, toBase: v => v.unit === 'kg' ? v.qty : v.qty / 1000 },
+  // Volume: ltr, ml, litre, liter
+  { re: /^([\d.]+)\s*(ltr|ml|litre|liter)\b/i, group: 'volume', base: 1, toBase: v => v.unit === 'ltr' || v.unit.startsWith('lit') ? v.qty : v.qty / 1000 },
+  // Pieces
+  { re: /^([\d.]+)\s*(pcs)\b/i, group: 'pieces', base: 1, toBase: v => v.qty },
+  // Bundle
+  { re: /^([\d.]+)\s*(bundle)\b/i, group: 'bundle', base: 1, toBase: v => v.qty },
+  // Pack
+  { re: /^([\d.]+)\s*(pack)\b/i, group: 'pack', base: 1, toBase: v => v.qty },
+  // Each
+  { re: /^each$/i, group: 'each', base: 1, toBase: () => 1 },
+];
+
+function parseSubtext(text) {
+  if (!text) return null;
+  text = text.trim();
+  for (const p of UNIT_PATTERNS) {
+    const m = text.match(p.re);
+    if (m) {
+      const qty = parseFloat(m[1]) || 1;
+      const rawUnit = (m[2] || text).toLowerCase();
+      const parsed = { qty, unit: rawUnit, group: p.group };
+      parsed.baseQty = p.toBase(parsed);
+      return parsed;
+    }
+  }
+  return null;
+}
+
+function enrichProduct(p) {
+  const parsed = parseSubtext(p.subtext);
+  if (parsed) {
+    p._parsed = parsed;
+    const price = p.discounted_price || p.price;
+    if (price && parsed.baseQty > 0) {
+      p._unitPrice = price / parsed.baseQty;
+    }
+  }
+}
+
+function getUnitLabel(group) {
+  switch (group) {
+    case 'weight': return 'per kg';
+    case 'volume': return 'per ltr';
+    case 'pieces': return 'per piece';
+    case 'each': return 'each';
+    case 'bundle': return 'per bundle';
+    case 'pack': return 'per pack';
+    default: return '';
+  }
+}
+
+// Group priority for display
+const GROUP_ORDER = { weight: 0, volume: 1, pieces: 2, each: 3, bundle: 4, pack: 5 };
+function groupRank(g) { return GROUP_ORDER[g] ?? 99; }
+
+// ── Value sort for a list of products ─────────────────────────────
+
+function valueSortProducts(products) {
+  // Split into parsed (has unit info) and unparsed
+  const parsed = products.filter(p => p._parsed);
+  const unparsed = products.filter(p => !p._parsed);
+
+  // Group parsed by unit type
+  const groups = {};
+  for (const p of parsed) {
+    const g = p._parsed.group;
+    if (!groups[g]) groups[g] = [];
+    groups[g].push(p);
+  }
+
+  // Sort within each group by unit price ascending
+  for (const g in groups) {
+    groups[g].sort((a, b) => (a._unitPrice ?? Infinity) - (b._unitPrice ?? Infinity));
+  }
+
+  // Flatten groups in priority order
+  const sortedGroups = Object.keys(groups).sort((a, b) => groupRank(a) - groupRank(b));
+  const result = [];
+  for (const g of sortedGroups) {
+    // Add group header marker
+    result.push({ _groupHeader: true, group: g, label: getUnitLabel(g) });
+    result.push(...groups[g]);
+  }
+
+  // Unparsed go last
+  if (unparsed.length) {
+    result.push({ _groupHeader: true, group: 'other', label: 'other' });
+    result.push(...unparsed);
+  }
+
+  return result;
+}
+
+// ── Toggle ────────────────────────────────────────────────────────
+
+function toggleValueSort() {
+  valueSort = !valueSort;
+  document.getElementById('valueToggle').classList.toggle('active', valueSort);
+  document.getElementById('valueToggle').innerHTML = valueSort
+    ? '<span class="icon">&#9651;</span> Value Sort ON'
+    : '<span class="icon">&#9661;</span> Value Sort';
+  render();
+}
+
+// ── Render ────────────────────────────────────────────────────────
 
 function render() {
   if (!data) return;
@@ -89,12 +226,13 @@ function render() {
 
   if (q) {
     const results = productLookup.filter(p => p.name.toLowerCase().includes(q) || (p.subtext || '').toLowerCase().includes(q));
-    document.getElementById('content').innerHTML = `
-      <div style="margin-bottom:12px;font-size:14px;color:#888;">${results.length} result${results.length !== 1 ? 's' : ''} for "${q}"</div>
-      <div class="products">${
-        results.map(p => renderProduct(p)).join('')
-      }</div>
-    `;
+    let html = `<div style="margin-bottom:12px;font-size:14px;color:#888;">${results.length} result${results.length !== 1 ? 's' : ''} for "${q}"</div>`;
+    if (valueSort) {
+      html += renderProductList(valueSortProducts(results));
+    } else {
+      html += `<div class="products">${results.map(p => renderProduct(p)).join('')}</div>`;
+    }
+    document.getElementById('content').innerHTML = html;
     return;
   }
 
@@ -114,19 +252,19 @@ function renderCategory(node, depth) {
   let h = `<div class="category">`;
   h += `<div class="category-header" onclick="toggle(this.nextElementSibling, this.querySelector('.arrow'))">
     <span class="arrow open">&#9654;</span> ${node.name}
-    <span class="count">${node.products ? node.products.length + ' products' : (countLeaves(node) + ' leaves')}</span>
+    <span class="count">${prods.length ? prods.length + ' products' : (countLeaves(node) + ' leaves')}</span>
   </div>`;
-  h += `<div class="subcat">`;
+  h += `<div class="cat-body">`;
 
   if (hasKids) {
     for (const s of subs) {
       h += renderSubcat(s, 1);
     }
     if (prods.length > 0) {
-      h += `<div class="products">${prods.map(p => renderProduct(p)).join('')}</div>`;
+      h += renderProductList(valueSort ? valueSortProducts(prods) : prods);
     }
   } else if (prods.length > 0) {
-    h += `<div class="products">${prods.map(p => renderProduct(p)).join('')}</div>`;
+    h += renderProductList(valueSort ? valueSortProducts(prods) : prods);
   }
 
   h += `</div></div>`;
@@ -138,32 +276,65 @@ function renderSubcat(node, depth) {
   const prods = node.products || [];
   const hasKids = subs.length > 0;
 
-  let h = `<div class="subcat-header" onclick="toggle(this.nextElementSibling, this.querySelector('.arrow'))">
+  let h = `<div class="subcat">`;
+  h += `<div class="subcat-header" onclick="toggle(this.nextElementSibling, this.querySelector('.arrow'))">
     <span class="arrow ${hasKids ? 'open' : ''}">${hasKids ? '&#9654;' : '&#8226;'}</span> ${node.name}
-    <span class="count">${(prods.length || '') + (prods.length ? ' products' : '')}</span>
+    <span class="count">${prods.length ? prods.length + ' products' : ''}</span>
   </div>`;
-  h += `<div>`;
+  h += `<div class="subcat-body">`;
 
   if (hasKids) {
     for (const s of subs) h += renderSubcat(s, depth + 1);
-    if (prods.length > 0) h += `<div class="products">${prods.map(p => renderProduct(p)).join('')}</div>`;
+    if (prods.length > 0) h += renderProductList(valueSort ? valueSortProducts(prods) : prods);
   } else if (prods.length > 0) {
-    h += `<div class="products">${prods.map(p => renderProduct(p)).join('')}</div>`;
+    h += renderProductList(valueSort ? valueSortProducts(prods) : prods);
   }
 
-  h += `</div>`;
+  h += `</div></div>`;
   return h;
 }
 
-function renderProduct(p) {
+function renderProductList(items) {
+  let html = '';
+  let rank = 0;
+  for (const item of items) {
+    if (item._groupHeader) {
+      if (rank > 0) html += `</div>`; // close previous products grid
+      html += `<div class="unit-group-label">${item.label}</div>`;
+      html += `<div class="products">`;
+      rank = 0;
+    } else {
+      rank++;
+      html += renderProduct(item, valueSort ? rank : null);
+    }
+  }
+  if (rank > 0) html += `</div>`; // close last grid
+  if (!html) html = `<div class="products"></div>`;
+  return html;
+}
+
+function renderProduct(p, rank) {
   const disc = p.discounted_price && p.discounted_price !== p.price;
+  const showPrice = disc ? p.discounted_price : p.price;
+  const badges = [];
+  if (rank) badges.push(`<div class="rank-badge">${rank}</div>`);
+  if (p._parsed) badges.push(`<div class="unit-type-badge">${p._parsed.group}</div>`);
+
+  let unitPriceHtml = '';
+  if (p._unitPrice != null && p._unitPrice > 0) {
+    const label = getUnitLabel(p._parsed.group);
+    unitPriceHtml = `<span class="unit-price">Tk ${p._unitPrice.toFixed(1)} ${label}</span>`;
+  }
+
   return `<div class="product">
+    ${badges.join('')}
     ${p.image_url ? `<img src="${p.image_url}" alt="${p.name}" loading="lazy" onerror="this.style.display='none'">` : ''}
     <div class="name">${p.name}</div>
     <div class="subtext">${p.subtext || ''}</div>
     <div class="price-row">
-      <span class="price">Tk ${disc ? p.discounted_price : p.price}</span>
+      <span class="price">Tk ${showPrice}</span>
       ${disc ? `<span class="mrp">Tk ${p.price}</span>` : ''}
+      ${unitPriceHtml}
       ${p.country_of_origin ? `<span class="origin">${p.country_of_origin}</span>` : ''}
     </div>
   </div>`;
