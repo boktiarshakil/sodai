@@ -295,20 +295,26 @@ function renderSubcat(node, depth) {
 }
 
 function renderProductList(items) {
+  const hasGroups = items.some(item => item._groupHeader);
+  if (!hasGroups) {
+    // Default mode — single grid, no group headers, no rank badges
+    return `<div class="products">${items.map(p => renderProduct(p)).join('')}</div>`;
+  }
+  // Value sort mode — group headers + rank badges
   let html = '';
   let rank = 0;
   for (const item of items) {
     if (item._groupHeader) {
-      if (rank > 0) html += `</div>`; // close previous products grid
+      if (rank > 0) html += `</div>`;
       html += `<div class="unit-group-label">${item.label}</div>`;
       html += `<div class="products">`;
       rank = 0;
     } else {
       rank++;
-      html += renderProduct(item, valueSort ? rank : null);
+      html += renderProduct(item, rank);
     }
   }
-  if (rank > 0) html += `</div>`; // close last grid
+  if (rank > 0) html += `</div>`;
   if (!html) html = `<div class="products"></div>`;
   return html;
 }
@@ -317,11 +323,13 @@ function renderProduct(p, rank) {
   const disc = p.discounted_price && p.discounted_price !== p.price;
   const showPrice = disc ? p.discounted_price : p.price;
   const badges = [];
+
+  // Only show rank/unit badges in Value Sort mode
   if (rank) badges.push(`<div class="rank-badge">${rank}</div>`);
-  if (p._parsed) badges.push(`<div class="unit-type-badge">${p._parsed.group}</div>`);
+  if (p._parsed && valueSort) badges.push(`<div class="unit-type-badge">${p._parsed.group}</div>`);
 
   let unitPriceHtml = '';
-  if (p._unitPrice != null && p._unitPrice > 0) {
+  if (p._unitPrice != null && p._unitPrice > 0 && valueSort) {
     const label = getUnitLabel(p._parsed.group);
     unitPriceHtml = `<span class="unit-price">Tk ${p._unitPrice.toFixed(1)} ${label}</span>`;
   }
