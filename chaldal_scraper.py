@@ -6,7 +6,7 @@ then fetches all products from every leaf category.
 Output: Grocery.json with the complete nested structure
 """
 
-import re, json, sys, time
+import re, json, sys, time, os
 import requests
 from bs4 import BeautifulSoup
 
@@ -274,14 +274,87 @@ def build_output(categories):
     output["_meta"] = {"leaf_categories": leaf_count, "total_products": total}
     return output
 
+def parse_subtext(subtext):
+    if not subtext:
+        return None
+    m = re.match(r'^([\d.]+)\s*(kg|gm|g|ltr|ml|pcs|each|bundle|pack)s?\b', subtext.strip().lower())
+    if m:
+        qty = float(m.group(1))
+        unit = m.group(2)
+        if unit in ('kg', 'gm', 'g'):       group = 'weight'
+        elif unit in ('ltr', 'ml'):          group = 'volume'
+        elif unit == 'pcs':                  group = 'pieces'
+        else:                                group = unit
+        return {"qty": qty, "unit": unit, "group": group}
+    return None
+
+def update_price_history(categories, history_path, fetched_at):
+    today = fetched_at[:10]
+    history = {}
+    if os.path.exists(history_path):
+        with open(history_path, 'r', encoding='utf-8') as f:
+            history = json.load(f)
+    prods = history.get("products", {})
+    dates = history.get("dates", {})
+
+    # Track today's date
+    if today not in dates:
+        dates[today] = True
+
+    def walk(node, path):
+        for p in node.get("products", []):
+            pid = str(p.get("id", ""))
+            if not pid:
+                continue
+            price = p.get("discounted_price") or p.get("price")
+            if price is None:
+                continue
+            price = round(float(price), 2)
+            if pid in prods:
+                entry = prods[pid]
+                existing = {h["d"] for h in entry["h"]}
+                if today not in existing:
+                    entry["h"].append({"d": today, "p": price})
+            else:
+                parsed = parse_subtext(p.get("subtext", ""))
+                prods[pid] = {
+                    "n": p.get("name", ""),
+                    "c": path + [node["name"]],
+                    "u": parsed,
+                    "h": [{"d": today, "p": price}],
+                }
+        for c in node.get("subcategories", []):
+            walk(c, path + [node["name"]])
+
+    for cat in categories:
+        walk(cat, [])
+
+    history["products"] = prods
+    history["dates"] = dates
+    with open(history_path, 'w', encoding='utf-8') as f:
+        json.dump(history, f, indent=2, ensure_ascii=False)
+    print(f"History: {len(prods)} products tracked across {len(dates)} days")
+
 def main():
     out = sys.argv[1] if len(sys.argv) > 1 else "Grocery.json"
     categories = scrape_full_tree()
     output = build_output(categories)
+
     with open(out, 'w', encoding='utf-8') as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
     print(f"Done: {output['_meta']['total_products']} products from {output['_meta']['leaf_categories']} leaf categories")
     print(f"Output: {out}")
+
+    # Append to price history
+    history_path = os.path.join(os.path.dirname(out) or ".", "docs", "price_history.json")
+    # If out is "Grocery.json" (root), history goes to docs/price_history.json
+    # If out already has path, use sibling docs dir
+    if os.path.dirname(out):
+        history_path = os.path.join(os.path.dirname(out), "price_history.json")
+    else:
+        history_path = "docs/price_history.json"
+    os.makedirs(os.path.dirname(history_path) or ".", exist_ok=True)
+    update_price_history(output["categories"], history_path, output["fetched_at"])
 
 if __name__ == "__main__":
     main()

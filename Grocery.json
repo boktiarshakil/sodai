@@ -1,7 +1,7 @@
 {
   "store": "chaldal",
   "base_url": "https://chaldal.com",
-  "fetched_at": "2026-06-03T15:58:56Z",
+  "fetched_at": "2026-06-03T17:47:13Z",
   "categories": [
     {
       "name": "Popular",
@@ -8769,20 +8769,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 11972,
-                  "name": "Dano Daily Pushti Milk Powder 1 kg",
-                  "subtext": "1 kg",
-                  "slug": "dano-daily-pushti-milk-powder-1-kg",
-                  "price": 770,
-                  "discounted_price": 770,
-                  "image_url": "https://chaldn.com/_mpimage/dano-daily-pushti-milk-powder-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169269&q=best&v=1",
-                  "category_ids": [
-                    1580
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 3382,
                   "name": "Dano Power Full Cream Milk Powder 500 gm",
                   "subtext": "500 gm",
@@ -8790,6 +8776,20 @@
                   "price": 480,
                   "discounted_price": 480,
                   "image_url": "https://chaldn.com/_mpimage/dano-power-full-cream-milk-powder-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D187004&q=best&v=1",
+                  "category_ids": [
+                    1580
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 11972,
+                  "name": "Dano Daily Pushti Milk Powder 1 kg",
+                  "subtext": "1 kg",
+                  "slug": "dano-daily-pushti-milk-powder-1-kg",
+                  "price": 770,
+                  "discounted_price": 770,
+                  "image_url": "https://chaldn.com/_mpimage/dano-daily-pushti-milk-powder-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169269&q=best&v=1",
                   "category_ids": [
                     1580
                   ],
