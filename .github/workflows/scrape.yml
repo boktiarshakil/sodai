@@ -39,11 +39,11 @@ jobs:
           git add Grocery.json docs/Grocery.json docs/price_history.json
           if ! git diff --staged --quiet; then
             MSG=$(python3 -c "
-import json
-d = json.load(open('Grocery.json'))
-m = d['_meta']
-print(f'Daily scrape: {d[\"fetched_at\"][:10]} - {m[\"total_products\"]} products, {m[\"leaf_categories\"]} categories')
-")
+          import json
+          d = json.load(open('Grocery.json'))
+          m = d['_meta']
+          print(f'Daily scrape: {d[\"fetched_at\"][:10]} - {m[\"total_products\"]} products, {m[\"leaf_categories\"]} categories')
+          ")
             git commit -m "$MSG"
             git push
           fi
