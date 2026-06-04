@@ -1,7 +1,7 @@
 {
   "store": "chaldal",
   "base_url": "https://chaldal.com",
-  "fetched_at": "2026-06-04T09:50:47Z",
+  "fetched_at": "2026-06-04T14:15:13Z",
   "categories": [
     {
       "name": "Popular",
@@ -679,21 +679,6 @@
           "country_of_origin": "BD"
         },
         {
-          "id": 2396,
-          "name": "Radhuni Biryani Masala 40 gm",
-          "subtext": "40 gm",
-          "slug": "radhuni-biryani-masala-40-gm",
-          "price": 60,
-          "discounted_price": 60,
-          "image_url": "https://chaldn.com/_mpimage/radhuni-biryani-masala-40-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D109980&q=best&v=1",
-          "category_ids": [
-            238,
-            110
-          ],
-          "is_age_restricted": false,
-          "country_of_origin": "BD"
-        },
-        {
           "id": 5600,
           "name": "Lau (Bottle Gourd) 1 pcs",
           "subtext": "each",
@@ -704,6 +689,21 @@
           "category_ids": [
             12,
             238
+          ],
+          "is_age_restricted": false,
+          "country_of_origin": "BD"
+        },
+        {
+          "id": 2396,
+          "name": "Radhuni Biryani Masala 40 gm",
+          "subtext": "40 gm",
+          "slug": "radhuni-biryani-masala-40-gm",
+          "price": 60,
+          "discounted_price": 60,
+          "image_url": "https://chaldn.com/_mpimage/radhuni-biryani-masala-40-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D109980&q=best&v=1",
+          "category_ids": [
+            238,
+            110
           ],
           "is_age_restricted": false,
           "country_of_origin": "BD"
@@ -2073,7 +2073,7 @@
                   "slug": "gala-apple-1-kg",
                   "price": 399,
                   "discounted_price": 399,
-                  "image_url": "https://chaldn.com/_mpimage/gala-apple-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D114751&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/gala-apple-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D114751&q=best&v=1",
                   "category_ids": [
                     11
                   ],
@@ -4192,20 +4192,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 4044,
-                  "name": "Radhuni Chilli (Morich) Powder 500 gm",
-                  "subtext": "500 gm",
-                  "slug": "radhuni-chili-morich-powder-500-gm",
-                  "price": 345,
-                  "discounted_price": 345,
-                  "image_url": "https://chaldn.com/_mpimage/radhuni-chilli-morich-powder-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132511&q=best&v=1",
-                  "category_ids": [
-                    107
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 9583,
                   "name": "Radhuni Panch Phoran 50 gm",
                   "subtext": "50 gm",
@@ -4227,6 +4213,20 @@
                   "price": 70,
                   "discounted_price": 49,
                   "image_url": "https://chaldn.com/_mpimage/black-cumin-kalo-jira-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D67826&q=best&v=1&m=400",
+                  "category_ids": [
+                    107
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 4044,
+                  "name": "Radhuni Chilli (Morich) Powder 500 gm",
+                  "subtext": "500 gm",
+                  "slug": "radhuni-chili-morich-powder-500-gm",
+                  "price": 345,
+                  "discounted_price": 345,
+                  "image_url": "https://chaldn.com/_mpimage/radhuni-chilli-morich-powder-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132511&q=best&v=1",
                   "category_ids": [
                     107
                   ],
@@ -4698,6 +4698,20 @@
                   "country_of_origin": "BD"
                 },
                 {
+                  "id": 15974,
+                  "name": "Paijam Rice (Boiled) 1 kg",
+                  "subtext": "1 kg",
+                  "slug": "paijam-rice-boiled-1-kg",
+                  "price": 75,
+                  "discounted_price": 65,
+                  "image_url": "https://chaldn.com/_mpimage/paijam-rice-boiled-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D80161&q=best&v=1",
+                  "category_ids": [
+                    80
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
                   "id": 6205,
                   "name": "Chashi Aromatic Chinigura Rice 2 kg",
                   "subtext": "2 kg",
@@ -4708,20 +4722,6 @@
                   "category_ids": [
                     80,
                     238
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 15974,
-                  "name": "Paijam Rice (Boiled) 1 kg",
-                  "subtext": "1 kg",
-                  "slug": "paijam-rice-boiled-1-kg",
-                  "price": 75,
-                  "discounted_price": 65,
-                  "image_url": "https://chaldn.com/_mpimage/paijam-rice-boiled-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D80161&q=best&v=1",
-                  "category_ids": [
-                    80
                   ],
                   "is_age_restricted": false,
                   "country_of_origin": "BD"
@@ -5474,20 +5474,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 21922,
-                  "name": "Radhuni Beef Curry Masala 100 gm",
-                  "subtext": "100 gm",
-                  "slug": "radhuni-beef-curry-masala-100-gm",
-                  "price": 90,
-                  "discounted_price": 90,
-                  "image_url": "https://chaldn.com/_mpimage/radhuni-beef-curry-masala-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D109975&q=best&v=1",
-                  "category_ids": [
-                    110
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 15563,
                   "name": "Radhuni Chicken Tandoori Masala 50 gm",
                   "subtext": "50 gm",
@@ -5514,6 +5500,20 @@
                   ],
                   "is_age_restricted": false,
                   "country_of_origin": "PK"
+                },
+                {
+                  "id": 21922,
+                  "name": "Radhuni Beef Curry Masala 100 gm",
+                  "subtext": "100 gm",
+                  "slug": "radhuni-beef-curry-masala-100-gm",
+                  "price": 90,
+                  "discounted_price": 90,
+                  "image_url": "https://chaldn.com/_mpimage/radhuni-beef-curry-masala-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D109975&q=best&v=1",
+                  "category_ids": [
+                    110
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
                 },
                 {
                   "id": 20360,
