@@ -95,6 +95,33 @@
   .trend-header h2 { font-size: 18px; }
   .back-btn { background: none; border: 1px solid #ddd; border-radius: 6px; padding: 6px 12px; cursor: pointer; font-size: 13px; color: #666; }
   .back-btn:hover { background: #f5f5f5; }
+
+  .price-change-badge { display: inline-flex; align-items: center; gap: 2px; font-size: 11px; font-weight: 600; padding: 1px 7px; border-radius: 4px; white-space: nowrap; }
+  .price-change-badge.down { background: #e8f8f0; color: #1a8b5a; }
+  .price-change-badge.up { background: #fde8e8; color: #c0392b; }
+  .price-change-badge.flat { background: #f0f0f0; color: #888; }
+
+  .changes-view { }
+  .changes-filters { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+  .change-filter-btn { padding: 8px 16px; border: 2px solid #ddd; border-radius: 8px; background: #fff; font-size: 13px; font-weight: 600; cursor: pointer; transition: all .15s; }
+  .change-filter-btn:hover { border-color: #bbb; }
+  .change-filter-btn.active { border-color: #6b3fa0; background: #f3edff; color: #6b3fa0; }
+  .change-filter-btn.drops.active { border-color: #1a8b5a; background: #e8f8f0; color: #1a8b5a; }
+  .change-filter-btn.rises.active { border-color: #c0392b; background: #fde8e8; color: #c0392b; }
+  .change-filter-count { font-size: 12px; color: #888; margin-bottom: 12px; }
+  .change-card { display: flex; align-items: center; gap: 12px; background: #fff; border-radius: 10px; padding: 12px 16px; margin-bottom: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.08); cursor: pointer; transition: background .15s; }
+  .change-card:hover { background: #faf5ff; }
+  .change-card img { width: 48px; height: 48px; object-fit: contain; border-radius: 6px; background: #fafafa; flex-shrink: 0; }
+  .change-card .info { flex: 1; min-width: 0; }
+  .change-card .info .name { font-size: 13px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .change-card .info .sub { font-size: 11px; color: #999; }
+  .change-card .info .cat { font-size: 10px; color: #bbb; }
+  .change-card .prices { text-align: right; flex-shrink: 0; }
+  .change-card .prices .old { font-size: 12px; color: #aaa; text-decoration: line-through; }
+  .change-card .prices .new { font-size: 16px; font-weight: 700; color: #6b3fa0; }
+  .change-card .pct { font-size: 15px; font-weight: 700; min-width: 70px; text-align: right; }
+  .change-card .pct.down { color: #1a8b5a; }
+  .change-card .pct.up { color: #c0392b; }
 </style>
 </head>
 <body>
@@ -111,6 +138,9 @@
     </button>
     <button class="toggle-btn" id="trendsBtn" onclick="toggleTrends()">
       <span class="icon">&#9651;</span> Trends
+    </button>
+    <button class="toggle-btn" id="changesBtn" onclick="toggleChanges()">
+      <span class="icon">&#8644;</span> Changes
     </button>
   </div>
   <div id="content"><div class="loading">Loading Grocery.json...</div></div>
@@ -135,6 +165,9 @@ let productLookup = [];
 let valueSort = false;
 let priceHistory = null;
 let showTrends = false;
+let showChanges = false;
+let changesFilter = 'all';
+let productById = {};
 
 fetch('Grocery.json')
   .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
@@ -148,14 +181,18 @@ fetch('price_history.json')
 
 function buildLookup() {
   productLookup = [];
-  function walk(node) {
+  productById = {};
+  function walk(node, path) {
+    const curPath = path ? [...path, node.name] : [node.name];
     for (const p of (node.products || [])) {
       enrichProduct(p);
+      p._catPath = curPath;
       productLookup.push({ ...p, _cat: node.name });
+      productById[p.id] = p;
     }
-    for (const s of (node.subcategories || [])) walk(s);
+    for (const s of (node.subcategories || [])) walk(s, curPath);
   }
-  for (const c of data.categories) walk(c);
+  for (const c of data.categories) walk(c, null);
 }
 
 // ── Unit parsing & normalization ──────────────────────────────────
@@ -267,6 +304,23 @@ function toggleValueSort() {
   render();
 }
 
+// ── Changes toggle ───────────────────────────────────────────────
+
+function toggleChanges() {
+  showChanges = !showChanges;
+  document.getElementById('changesBtn').classList.toggle('active', showChanges);
+  document.getElementById('changesBtn').innerHTML = showChanges
+    ? '<span class="icon">&#8644;</span> Changes ON'
+    : '<span class="icon">&#8644;</span> Changes';
+  if (showChanges) showTrends = false;
+  render();
+}
+
+function setChangesFilter(f) {
+  changesFilter = f;
+  renderChangesView();
+}
+
 // ── Trends toggle ─────────────────────────────────────────────────
 
 function toggleTrends() {
@@ -275,6 +329,7 @@ function toggleTrends() {
   document.getElementById('trendsBtn').innerHTML = showTrends
     ? '<span class="icon">&#9661;</span> Trends ON'
     : '<span class="icon">&#9651;</span> Trends';
+  if (showTrends) showChanges = false;
   render();
 }
 
@@ -396,11 +451,91 @@ function renderTrends() {
   return html;
 }
 
+// ── Price Changes Tab ─────────────────────────────────────────────
+
+function renderChanges() {
+  if (!priceHistory) return `<div class="trend-header"><button class="back-btn" onclick="toggleChanges()">&#8592; Back</button><h2>Price Changes</h2></div><div class="loading">Loading price history...</div>`;
+
+  const allChanges = [];
+  for (const pid in priceHistory.products) {
+    const e = priceHistory.products[pid];
+    const h = e.h;
+    if (h.length < 2) continue;
+    const sorted = [...h].sort((a, b) => a.d.localeCompare(b.d));
+    const prev = sorted[sorted.length - 2].p;
+    const curr = sorted[sorted.length - 1].p;
+    const diff = curr - prev;
+    const pct = prev > 0 ? (diff / prev) * 100 : 0;
+    allChanges.push({ pid, name: e.n, cat: (e.c || []).join(' › '), prev, curr, diff, pct });
+  }
+
+  if (allChanges.length === 0) {
+    // Even with 0 changes, show the view so the filter/back area works
+    return `<div class="trend-header"><button class="back-btn" onclick="toggleChanges()">&#8592; Back</button><h2>Price Changes</h2></div>
+      <div class="error" style="padding:40px">Not enough data — need at least 2 days of history. Check back after the next scrape.</div>`;
+  }
+
+  const drops = allChanges.filter(c => c.diff < 0);
+  const rises = allChanges.filter(c => c.diff > 0);
+  const flat = allChanges.filter(c => c.diff === 0);
+
+  let filtered;
+  if (changesFilter === 'drops') filtered = drops;
+  else if (changesFilter === 'rises') filtered = rises;
+  else filtered = allChanges;
+
+  filtered.sort((a, b) => a.pct - b.pct);
+
+  const nDrops = drops.length, nRises = rises.length, nFlat = flat.length;
+
+  return `<div class="trend-header">
+    <button class="back-btn" onclick="toggleChanges()">&#8592; Back</button>
+    <h2>Price Changes</h2>
+  </div>
+  <div class="changes-filters">
+    <button class="change-filter-btn ${changesFilter === 'all' ? 'active' : ''}" onclick="changesFilter='all';renderChangesView()">All (${nDrops + nRises + nFlat})</button>
+    <button class="change-filter-btn drops ${changesFilter === 'drops' ? 'active' : ''}" onclick="changesFilter='drops';renderChangesView()">&#9660; Drops (${nDrops})</button>
+    <button class="change-filter-btn rises ${changesFilter === 'rises' ? 'active' : ''}" onclick="changesFilter='rises';renderChangesView()">&#9650; Rises (${nRises})</button>
+  </div>
+  <div class="change-filter-count">Showing ${filtered.length} product${filtered.length !== 1 ? 's' : ''} sorted by biggest drop first</div>
+  <div class="changes-view">${filtered.map(c => renderChangeCard(c)).join('')}</div>`;
+}
+
+function renderChangeCard(c) {
+  const prod = productById[c.pid];
+  const img = prod && prod.image_url ? prod.image_url : '';
+  const arrow = c.diff < 0 ? '&#9660;' : (c.diff > 0 ? '&#9650;' : '&#9644;');
+  const cls = c.diff < 0 ? 'down' : (c.diff > 0 ? 'up' : 'flat');
+  const pctStr = c.diff > 0 ? '+' + c.pct.toFixed(1) : c.pct.toFixed(1);
+
+  return `<div class="change-card" onclick="showHistory('${c.pid}')">
+    ${img ? `<img src="${img}" alt="" loading="lazy" onerror="this.style.display='none'">` : ''}
+    <div class="info">
+      <div class="name">${c.name}</div>
+      <div class="sub">Tk ${c.prev} → Tk ${c.curr}</div>
+      <div class="cat">${c.cat}</div>
+    </div>
+    <div class="pct ${cls}">${arrow} ${c.diff > 0 ? '+' : ''}${c.diff.toFixed(0)}</div>
+    <div class="pct ${cls}">${pctStr}%</div>
+  </div>`;
+}
+
+function renderChangesView() {
+  if (!showChanges) return;
+  document.getElementById('content').innerHTML = renderChanges();
+}
+
 // ── Render ────────────────────────────────────────────────────────
 
 function render() {
   if (!data) return;
 
+  if (showChanges) {
+    document.getElementById('meta').innerHTML = '';
+    document.getElementById('search').value = '';
+    document.getElementById('content').innerHTML = renderChanges();
+    return;
+  }
   if (showTrends) {
     document.getElementById('meta').innerHTML = '';
     document.getElementById('search').value = '';
@@ -519,6 +654,26 @@ function renderProduct(p, rank) {
   const showPrice = disc ? p.discounted_price : p.price;
   const badges = [];
 
+  // Price change badge from history
+  let changeHtml = '';
+  if (priceHistory && priceHistory.products[p.id]) {
+    const h = priceHistory.products[p.id].h;
+    if (h.length >= 2) {
+      const sorted = [...h].sort((a, b) => a.d.localeCompare(b.d));
+      const prev = sorted[sorted.length - 2].p;
+      const curr = sorted[sorted.length - 1].p;
+      const diff = curr - prev;
+      const pct = (diff / prev) * 100;
+      if (Math.abs(pct) < 0.05) {
+        changeHtml = `<span class="price-change-badge flat">&#9644; 0.0%</span>`;
+      } else if (diff < 0) {
+        changeHtml = `<span class="price-change-badge down">&#9660; Tk ${Math.abs(diff).toFixed(0)} (${pct.toFixed(1)}%)</span>`;
+      } else {
+        changeHtml = `<span class="price-change-badge up">&#9650; Tk ${diff.toFixed(0)} (+${pct.toFixed(1)}%)</span>`;
+      }
+    }
+  }
+
   // Only show rank/unit badges in Value Sort mode
   if (rank) badges.push(`<div class="rank-badge">${rank}</div>`);
   if (p._parsed && valueSort) badges.push(`<div class="unit-type-badge">${p._parsed.group}</div>`);
@@ -542,6 +697,7 @@ function renderProduct(p, rank) {
       <span class="price">Tk ${showPrice}</span>
       ${disc ? `<span class="mrp">Tk ${p.price}</span>` : ''}
       ${unitPriceHtml}
+      ${changeHtml}
       ${p.country_of_origin ? `<span class="origin">${p.country_of_origin}</span>` : ''}
     </div>
   </div>`;
