@@ -1,6 +1,9 @@
 name: Daily Grocery Scrape
 
 on:
+  push:
+    branches: [main]
+    paths: ['docs/index.html', 'chaldal_scraper.py', '.github/workflows/scrape.yml']
   schedule:
     - cron: '0 6 * * *'
   workflow_dispatch:
