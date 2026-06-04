@@ -1,7 +1,7 @@
 {
   "store": "chaldal",
   "base_url": "https://chaldal.com",
-  "fetched_at": "2026-06-04T07:30:42Z",
+  "fetched_at": "2026-06-04T09:50:47Z",
   "categories": [
     {
       "name": "Popular",
@@ -110,7 +110,7 @@
           "slug": "tatka-egg-pack-12-pcs",
           "price": 139,
           "discounted_price": 135,
-          "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79219&q=best&v=1&m=400",
+          "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79219&q=best&v=1",
           "category_ids": [
             61,
             238,
@@ -8584,7 +8584,7 @@
                   "slug": "tatka-egg-pack-12-pcs",
                   "price": 139,
                   "discounted_price": 135,
-                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79219&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79219&q=best&v=1",
                   "category_ids": [
                     61,
                     238,
@@ -8631,7 +8631,7 @@
                   "slug": "duck-egg-6-pcs",
                   "price": 115,
                   "discounted_price": 115,
-                  "image_url": "https://chaldn.com/_mpimage/duck-eggs-hasher-dim-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79970&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/duck-eggs-hasher-dim-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79970&q=best&v=1",
                   "category_ids": [
                     61,
                     1505,
@@ -9920,7 +9920,7 @@
                   "slug": "tatka-egg-pack-12-pcs",
                   "price": 139,
                   "discounted_price": 135,
-                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79219&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79219&q=best&v=1",
                   "category_ids": [
                     61,
                     238,
@@ -9967,7 +9967,7 @@
                   "slug": "duck-egg-6-pcs",
                   "price": 115,
                   "discounted_price": 115,
-                  "image_url": "https://chaldn.com/_mpimage/duck-eggs-hasher-dim-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79970&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/duck-eggs-hasher-dim-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79970&q=best&v=1",
                   "category_ids": [
                     61,
                     1505,
