@@ -1,7 +1,7 @@
 {
   "store": "chaldal",
   "base_url": "https://chaldal.com",
-  "fetched_at": "2026-06-04T14:22:07Z",
+  "fetched_at": "2026-06-05T09:39:40Z",
   "categories": [
     {
       "name": "Popular",
@@ -141,7 +141,7 @@
           "slug": "chicken-eggs-layer-white-12-pcs",
           "price": 130,
           "discounted_price": 125,
-          "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-white-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165811&q=best&v=1&m=400",
+          "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-white-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165811&q=best&v=1",
           "category_ids": [
             61,
             238,
@@ -317,21 +317,6 @@
           "country_of_origin": "BD"
         },
         {
-          "id": 8223,
-          "name": "Deshi Shosha (Local Cucumber) ± 25 gm 500 gm",
-          "subtext": "500 gm",
-          "slug": "deshi-cucumber-net-weight-20-gm-500-gm",
-          "price": 39,
-          "discounted_price": 39,
-          "image_url": "https://chaldn.com/_mpimage/deshi-shosha-local-cucumber-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64359&q=best&v=1",
-          "category_ids": [
-            12,
-            238
-          ],
-          "is_age_restricted": false,
-          "country_of_origin": "BD"
-        },
-        {
           "id": 36114,
           "name": "Banana Chompa (Ready To Eat) 4 pcs",
           "subtext": "4 pcs",
@@ -356,6 +341,21 @@
           "image_url": "https://chaldn.com/_mpimage/wheel-washing-laundry-bar-125-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D138275&q=best&v=1",
           "category_ids": [
             86,
+            238
+          ],
+          "is_age_restricted": false,
+          "country_of_origin": "BD"
+        },
+        {
+          "id": 8223,
+          "name": "Deshi Shosha (Local Cucumber) ± 25 gm 500 gm",
+          "subtext": "500 gm",
+          "slug": "deshi-cucumber-net-weight-20-gm-500-gm",
+          "price": 39,
+          "discounted_price": 39,
+          "image_url": "https://chaldn.com/_mpimage/deshi-shosha-local-cucumber-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64359&q=best&v=1",
+          "category_ids": [
+            12,
             238
           ],
           "is_age_restricted": false,
@@ -408,15 +408,16 @@
           "country_of_origin": "BD"
         },
         {
-          "id": 6373,
-          "name": "Miniket Rice Premium (Boiled) ± 50 gm 5 kg",
-          "subtext": "5 kg",
-          "slug": "miniket-rice-premium-boiled-50-gm-5-kg",
-          "price": 439,
-          "discounted_price": 439,
-          "image_url": "https://chaldn.com/_mpimage/miniket-rice-premium-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48081&q=best&v=1",
+          "id": 5938,
+          "name": "Lomba Lebu (Long Lemon) 4 pcs",
+          "subtext": "4 pcs",
+          "slug": "long-big-lemon-4-pcs",
+          "price": 39,
+          "discounted_price": 29,
+          "image_url": "https://chaldn.com/_mpimage/lomba-lebu-long-lemon-4-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64362&q=low&v=1",
           "category_ids": [
-            80,
+            12,
+            1505,
             238
           ],
           "is_age_restricted": false,
@@ -438,16 +439,15 @@
           "country_of_origin": "BD"
         },
         {
-          "id": 5938,
-          "name": "Lomba Lebu (Long Lemon) 4 pcs",
-          "subtext": "4 pcs",
-          "slug": "long-big-lemon-4-pcs",
-          "price": 39,
-          "discounted_price": 29,
-          "image_url": "https://chaldn.com/_mpimage/lomba-lebu-long-lemon-4-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64362&q=low&v=1",
+          "id": 6373,
+          "name": "Miniket Rice Premium (Boiled) ± 50 gm 5 kg",
+          "subtext": "5 kg",
+          "slug": "miniket-rice-premium-boiled-50-gm-5-kg",
+          "price": 439,
+          "discounted_price": 439,
+          "image_url": "https://chaldn.com/_mpimage/miniket-rice-premium-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48081&q=best&v=1",
           "category_ids": [
-            12,
-            1505,
+            80,
             238
           ],
           "is_age_restricted": false,
@@ -499,21 +499,6 @@
           "country_of_origin": "BD"
         },
         {
-          "id": 2520,
-          "name": "Wheel Washing Powder 2 in 1 Clean & Fresh 500 gm",
-          "subtext": "500 gm",
-          "slug": "wheel-washing-powder-2in1-clean-fresh-500-gm",
-          "price": 80,
-          "discounted_price": 80,
-          "image_url": "https://chaldn.com/_mpimage/wheel-washing-powder-2-in-1-clean-fresh-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D138276&q=best&v=1",
-          "category_ids": [
-            86,
-            238
-          ],
-          "is_age_restricted": false,
-          "country_of_origin": "BD"
-        },
-        {
           "id": 8102,
           "name": "Deshi Ada (Local Ginger) ± 25 gm 500 gm",
           "subtext": "500 gm",
@@ -523,6 +508,21 @@
           "image_url": "https://chaldn.com/_mpimage/deshi-ada-local-ginger-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163274&q=best&v=1&m=400",
           "category_ids": [
             12,
+            238
+          ],
+          "is_age_restricted": false,
+          "country_of_origin": "BD"
+        },
+        {
+          "id": 2520,
+          "name": "Wheel Washing Powder 2 in 1 Clean & Fresh 500 gm",
+          "subtext": "500 gm",
+          "slug": "wheel-washing-powder-2in1-clean-fresh-500-gm",
+          "price": 80,
+          "discounted_price": 80,
+          "image_url": "https://chaldn.com/_mpimage/wheel-washing-powder-2-in-1-clean-fresh-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D138276&q=best&v=1",
+          "category_ids": [
+            86,
             238
           ],
           "is_age_restricted": false,
@@ -1284,21 +1284,6 @@
                   "country_of_origin": "CN"
                 },
                 {
-                  "id": 5937,
-                  "name": "Lal Shak (Red Spinach) 1 bundle",
-                  "subtext": "1 bundle",
-                  "slug": "lal-shak-1-bundle",
-                  "price": 29,
-                  "discounted_price": 19,
-                  "image_url": "https://chaldn.com/_mpimage/lal-shak-red-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7226&q=low&v=1",
-                  "category_ids": [
-                    12,
-                    238
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 5938,
                   "name": "Lomba Lebu (Long Lemon) 4 pcs",
                   "subtext": "4 pcs",
@@ -1309,6 +1294,21 @@
                   "category_ids": [
                     12,
                     1505,
+                    238
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 5937,
+                  "name": "Lal Shak (Red Spinach) 1 bundle",
+                  "subtext": "1 bundle",
+                  "slug": "lal-shak-1-bundle",
+                  "price": 29,
+                  "discounted_price": 19,
+                  "image_url": "https://chaldn.com/_mpimage/lal-shak-red-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7226&q=low&v=1",
+                  "category_ids": [
+                    12,
                     238
                   ],
                   "is_age_restricted": false,
@@ -1793,8 +1793,8 @@
                   "subtext": "800 gm",
                   "slug": "kalo-gol-begun-round-brinjals-black-35-gm-800-gm",
                   "price": 79,
-                  "discounted_price": 79,
-                  "image_url": "https://chaldn.com/_mpimage/kalo-gol-begun-round-brinjals-black-35-gm-800-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7893&q=best&v=1",
+                  "discounted_price": 75,
+                  "image_url": "https://chaldn.com/_mpimage/kalo-gol-begun-round-brinjals-black-35-gm-800-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7893&q=best&v=1&m=400",
                   "category_ids": [
                     12
                   ],
@@ -2001,7 +2001,7 @@
                   "name": "Dalim (Pomegranate) 2 pcs",
                   "subtext": "2 pcs",
                   "slug": "pomegranate-dalim-2-pcs",
-                  "price": 269,
+                  "price": 295,
                   "discounted_price": 269,
                   "image_url": "https://chaldn.com/_mpimage/dalim-pomegranate-2-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28589&q=best&v=1&m=400",
                   "category_ids": [
@@ -2371,7 +2371,7 @@
                   "name": "Broiler Chicken Skin On ± 50 gm 1 kg",
                   "subtext": "1 kg",
                   "slug": "whole-broiler-chicken-skin-on-net-weight-1-kg",
-                  "price": 350,
+                  "price": 315,
                   "discounted_price": 289,
                   "image_url": "https://chaldn.com/_mpimage/broiler-chicken-skin-on-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163138&q=best&v=1&m=400",
                   "category_ids": [
@@ -2387,8 +2387,8 @@
                   "subtext": "1 kg",
                   "slug": "whole-broiler-chicken-skin-off-net-weight-1-kg",
                   "price": 329,
-                  "discounted_price": 329,
-                  "image_url": "https://chaldn.com/_mpimage/broiler-chicken-skin-off-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163139&q=best&v=1",
+                  "discounted_price": 319,
+                  "image_url": "https://chaldn.com/_mpimage/broiler-chicken-skin-off-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163139&q=best&v=1&m=400",
                   "category_ids": [
                     1593,
                     1696
@@ -2402,7 +2402,7 @@
                   "subtext": "1.4 kg",
                   "slug": "broiler-chicken-skin-off-50-gm-14-kg",
                   "price": 439,
-                  "discounted_price": 429,
+                  "discounted_price": 419,
                   "image_url": "https://chaldn.com/_mpimage/broiler-chicken-skin-off-50-gm-14-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163162&q=best&v=1&m=400",
                   "category_ids": [
                     1593
@@ -2415,8 +2415,8 @@
                   "name": "Broiler Chicken Breast Boneless ± 50 gm 1 kg",
                   "subtext": "1 kg",
                   "slug": "broiler-chicken-breast-boneless-50-gm-1-kg",
-                  "price": 589,
-                  "discounted_price": 589,
+                  "price": 559,
+                  "discounted_price": 559,
                   "image_url": "https://chaldn.com/_mpimage/broiler-chicken-breast-boneless-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74660&q=best&v=1&m=400",
                   "category_ids": [
                     1593,
@@ -2430,8 +2430,8 @@
                   "name": "Broiler Chicken Breast Boneless ± 25 gm 500 gm",
                   "subtext": "500 gm",
                   "slug": "broiler-chicken-breast-boneless-25-gm-500-gm",
-                  "price": 289,
-                  "discounted_price": 289,
+                  "price": 279,
+                  "discounted_price": 279,
                   "image_url": "https://chaldn.com/_mpimage/broiler-chicken-breast-boneless-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D167900&q=best&v=1&m=400",
                   "category_ids": [
                     1593,
@@ -2461,7 +2461,7 @@
                   "subtext": "1 kg",
                   "slug": "broiler-chicken-thigh-boneless-50-gm-1-kg",
                   "price": 499,
-                  "discounted_price": 489,
+                  "discounted_price": 449,
                   "image_url": "https://chaldn.com/_mpimage/broiler-chicken-thigh-boneless-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74665&q=best&v=1&m=400",
                   "category_ids": [
                     1593,
@@ -2579,8 +2579,8 @@
                   "name": "Broiler Chicken Thigh Boneless ± 25 gm 500 gm",
                   "subtext": "500 gm",
                   "slug": "broiler-chicken-thigh-boneless-25-gm-500-gm",
-                  "price": 239,
-                  "discounted_price": 239,
+                  "price": 219,
+                  "discounted_price": 219,
                   "image_url": "https://chaldn.com/_mpimage/broiler-chicken-thigh-boneless-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D167902&q=best&v=1&m=400",
                   "category_ids": [
                     1593,
@@ -2773,8 +2773,8 @@
                   "name": "Pangas Fish After Cutting ±50 gm 1 kg",
                   "subtext": "1 kg",
                   "slug": "deshi-pangas-after-cutting-net-weight-50-gm-1-kg",
-                  "price": 269,
-                  "discounted_price": 269,
+                  "price": 279,
+                  "discounted_price": 279,
                   "image_url": "https://chaldn.com/_mpimage/pangas-fish-after-cutting-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D177010&q=best&v=1&m=400",
                   "category_ids": [
                     1235
@@ -2788,7 +2788,7 @@
                   "subtext": "1 kg",
                   "slug": "rui-fish-net-weight-after-cutting-800-gm",
                   "price": 475,
-                  "discounted_price": 439,
+                  "discounted_price": 429,
                   "image_url": "https://chaldn.com/_mpimage/rui-fish-after-cutting-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D116875&q=best&v=1&m=400",
                   "category_ids": [
                     1235
@@ -2825,20 +2825,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 22222,
-                  "name": "Koi Fish Processed ±50 gm 1 kg",
-                  "subtext": "1 kg",
-                  "slug": "koi-fish-processed-50-gm-1-kg",
-                  "price": 395,
-                  "discounted_price": 369,
-                  "image_url": "https://chaldn.com/_mpimage/koi-fish-processed-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D120746&q=best&v=1&m=400",
-                  "category_ids": [
-                    1235
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 13695,
                   "name": "Shing Fish Processed ±30 gm 500 gm",
                   "subtext": "500 gm",
@@ -2846,6 +2832,20 @@
                   "price": 379,
                   "discounted_price": 299,
                   "image_url": "https://chaldn.com/_mpimage/shing-fish-processed-30-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D103459&q=best&v=1&m=400",
+                  "category_ids": [
+                    1235
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 22222,
+                  "name": "Koi Fish Processed ±50 gm 1 kg",
+                  "subtext": "1 kg",
+                  "slug": "koi-fish-processed-50-gm-1-kg",
+                  "price": 395,
+                  "discounted_price": 359,
+                  "image_url": "https://chaldn.com/_mpimage/koi-fish-processed-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D120746&q=best&v=1&m=400",
                   "category_ids": [
                     1235
                   ],
@@ -3361,8 +3361,8 @@
                   "name": "Koral Fish After Cutting ± 50 gm 1 kg",
                   "subtext": "1 kg",
                   "slug": "koral-small-family-cut-net-weight-20gm-1-kg-3",
-                  "price": 1039,
-                  "discounted_price": 1039,
+                  "price": 999,
+                  "discounted_price": 999,
                   "image_url": "https://chaldn.com/_mpimage/koral-fish-after-cutting-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D175500&q=best&v=1&m=400",
                   "category_ids": [
                     1235,
@@ -4886,8 +4886,8 @@
                   "subtext": "5 kg",
                   "slug": "zirashail-rice-boiled-50-gm-5-kg",
                   "price": 419,
-                  "discounted_price": 349,
-                  "image_url": "https://chaldn.com/_mpimage/zirashail-rice-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D138415&q=best&v=1",
+                  "discounted_price": 339,
+                  "image_url": "https://chaldn.com/_mpimage/zirashail-rice-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D138415&q=best&v=1&m=400",
                   "category_ids": [
                     80
                   ],
@@ -5026,7 +5026,7 @@
                   "subtext": "25 kg",
                   "slug": "paijam-rice-boiled-200-gm-25-kg",
                   "price": 1699,
-                  "discounted_price": 1629,
+                  "discounted_price": 1619,
                   "image_url": "https://chaldn.com/_mpimage/paijam-rice-boiled-200-gm-25-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D117515&q=best&v=1&m=400",
                   "category_ids": [
                     80
@@ -8600,7 +8600,7 @@
                   "slug": "chicken-eggs-layer-white-12-pcs",
                   "price": 130,
                   "discounted_price": 125,
-                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-white-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165811&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-white-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165811&q=best&v=1",
                   "category_ids": [
                     61,
                     238,
@@ -8646,8 +8646,8 @@
                   "subtext": "6 pcs",
                   "slug": "chicken-eggs-layer-6-pcs",
                   "price": 69,
-                  "discounted_price": 69,
-                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182905&q=best&v=1",
+                  "discounted_price": 65,
+                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182905&q=best&v=1&m=400",
                   "category_ids": [
                     61,
                     1702
@@ -9936,7 +9936,7 @@
                   "slug": "chicken-eggs-layer-white-12-pcs",
                   "price": 130,
                   "discounted_price": 125,
-                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-white-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165811&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-white-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165811&q=best&v=1",
                   "category_ids": [
                     61,
                     238,
@@ -9982,8 +9982,8 @@
                   "subtext": "6 pcs",
                   "slug": "chicken-eggs-layer-6-pcs",
                   "price": 69,
-                  "discounted_price": 69,
-                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182905&q=best&v=1",
+                  "discounted_price": 65,
+                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182905&q=best&v=1&m=400",
                   "category_ids": [
                     61,
                     1702
