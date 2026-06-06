@@ -1,7 +1,7 @@
 {
   "store": "chaldal",
   "base_url": "https://chaldal.com",
-  "fetched_at": "2026-06-05T09:39:40Z",
+  "fetched_at": "2026-06-06T08:30:39Z",
   "categories": [
     {
       "name": "Popular",
@@ -170,9 +170,9 @@
           "name": "Red Tomato ± 25 gm 500 gm",
           "subtext": "500 gm",
           "slug": "red-tomato-500-gm",
-          "price": 60,
-          "discounted_price": 55,
-          "image_url": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=best&v=1",
+          "price": 70,
+          "discounted_price": 59,
+          "image_url": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=best&v=1&m=400",
           "category_ids": [
             12,
             238
@@ -484,21 +484,6 @@
           "country_of_origin": "BD"
         },
         {
-          "id": 5599,
-          "name": "Kacha Pepe (Green Papaya) ± 70 gm 1.4 kg",
-          "subtext": "1.4 kg",
-          "slug": "papaya-14-kg",
-          "price": 115,
-          "discounted_price": 99,
-          "image_url": "https://chaldn.com/_mpimage/kacha-pepe-green-papaya-70-gm-14-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D69930&q=low&v=1&m=400",
-          "category_ids": [
-            238,
-            12
-          ],
-          "is_age_restricted": false,
-          "country_of_origin": "BD"
-        },
-        {
           "id": 8102,
           "name": "Deshi Ada (Local Ginger) ± 25 gm 500 gm",
           "subtext": "500 gm",
@@ -509,6 +494,21 @@
           "category_ids": [
             12,
             238
+          ],
+          "is_age_restricted": false,
+          "country_of_origin": "BD"
+        },
+        {
+          "id": 5599,
+          "name": "Kacha Pepe (Green Papaya) ± 70 gm 1.4 kg",
+          "subtext": "1.4 kg",
+          "slug": "papaya-14-kg",
+          "price": 115,
+          "discounted_price": 99,
+          "image_url": "https://chaldn.com/_mpimage/kacha-pepe-green-papaya-70-gm-14-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D69930&q=low&v=1",
+          "category_ids": [
+            238,
+            12
           ],
           "is_age_restricted": false,
           "country_of_origin": "BD"
@@ -565,7 +565,7 @@
           "slug": "cucumber-net-weight-20-gm-500-gm",
           "price": 45,
           "discounted_price": 35,
-          "image_url": "https://chaldn.com/_mpimage/shosha-cucumber-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64357&q=best&v=1&m=400",
+          "image_url": "https://chaldn.com/_mpimage/shosha-cucumber-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64357&q=best&v=1",
           "category_ids": [
             12,
             238
@@ -1168,9 +1168,9 @@
                   "name": "Red Tomato ± 25 gm 500 gm",
                   "subtext": "500 gm",
                   "slug": "red-tomato-500-gm",
-                  "price": 60,
-                  "discounted_price": 55,
-                  "image_url": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=best&v=1",
+                  "price": 70,
+                  "discounted_price": 59,
+                  "image_url": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=best&v=1&m=400",
                   "category_ids": [
                     12,
                     238
@@ -1359,21 +1359,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 5599,
-                  "name": "Kacha Pepe (Green Papaya) ± 70 gm 1.4 kg",
-                  "subtext": "1.4 kg",
-                  "slug": "papaya-14-kg",
-                  "price": 115,
-                  "discounted_price": 99,
-                  "image_url": "https://chaldn.com/_mpimage/kacha-pepe-green-papaya-70-gm-14-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D69930&q=low&v=1&m=400",
-                  "category_ids": [
-                    238,
-                    12
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 8102,
                   "name": "Deshi Ada (Local Ginger) ± 25 gm 500 gm",
                   "subtext": "500 gm",
@@ -1384,6 +1369,21 @@
                   "category_ids": [
                     12,
                     238
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 5599,
+                  "name": "Kacha Pepe (Green Papaya) ± 70 gm 1.4 kg",
+                  "subtext": "1.4 kg",
+                  "slug": "papaya-14-kg",
+                  "price": 115,
+                  "discounted_price": 99,
+                  "image_url": "https://chaldn.com/_mpimage/kacha-pepe-green-papaya-70-gm-14-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D69930&q=low&v=1",
+                  "category_ids": [
+                    238,
+                    12
                   ],
                   "is_age_restricted": false,
                   "country_of_origin": "BD"
@@ -1425,7 +1425,7 @@
                   "slug": "cucumber-net-weight-20-gm-500-gm",
                   "price": 45,
                   "discounted_price": 35,
-                  "image_url": "https://chaldn.com/_mpimage/shosha-cucumber-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64357&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/shosha-cucumber-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64357&q=best&v=1",
                   "category_ids": [
                     12,
                     238
@@ -1681,8 +1681,8 @@
                   "subtext": "each",
                   "slug": "water-pumpkin-1-pcs",
                   "price": 65,
-                  "discounted_price": 65,
-                  "image_url": "https://chaldn.com/_mpimage/jali-kumra-water-pumpkin-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D69932&q=low&v=1",
+                  "discounted_price": 59,
+                  "image_url": "https://chaldn.com/_mpimage/jali-kumra-water-pumpkin-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D69932&q=low&v=1&m=400",
                   "category_ids": [
                     12
                   ],
@@ -1794,7 +1794,7 @@
                   "slug": "kalo-gol-begun-round-brinjals-black-35-gm-800-gm",
                   "price": 79,
                   "discounted_price": 75,
-                  "image_url": "https://chaldn.com/_mpimage/kalo-gol-begun-round-brinjals-black-35-gm-800-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7893&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/kalo-gol-begun-round-brinjals-black-35-gm-800-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7893&q=best&v=1",
                   "category_ids": [
                     12
                   ],
@@ -2071,9 +2071,9 @@
                   "name": "Gala Apple ± 50 gm 1 kg",
                   "subtext": "1 kg",
                   "slug": "gala-apple-1-kg",
-                  "price": 399,
+                  "price": 440,
                   "discounted_price": 399,
-                  "image_url": "https://chaldn.com/_mpimage/gala-apple-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D114751&q=best&v=1",
+                  "image_url": "https://chaldn.com/_mpimage/gala-apple-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D114751&q=best&v=1&m=400",
                   "category_ids": [
                     11
                   ],
@@ -2213,7 +2213,7 @@
                   "name": "Green Apple ± 50 gm 1 kg",
                   "subtext": "1 kg",
                   "slug": "green-apple-1-kg",
-                  "price": 450,
+                  "price": 455,
                   "discounted_price": 399,
                   "image_url": "https://chaldn.com/_mpimage/green-apple-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D119065&q=best&v=1&m=400",
                   "category_ids": [
@@ -2255,8 +2255,8 @@
                   "name": "Dragon Fruit Local (± 50 gm) 1 kg",
                   "subtext": "1 kg",
                   "slug": "dragon-fruit-local-net-weight-100-gm-1-kg",
-                  "price": 370,
-                  "discounted_price": 339,
+                  "price": 350,
+                  "discounted_price": 319,
                   "image_url": "https://chaldn.com/_mpimage/dragon-fruit-local-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D93407&q=best&v=1&m=400",
                   "category_ids": [
                     11
@@ -2312,7 +2312,7 @@
                   "subtext": "500 gm",
                   "slug": "jamrul-java-apple-white-500-gm",
                   "price": 89,
-                  "discounted_price": 69,
+                  "discounted_price": 65,
                   "image_url": "https://chaldn.com/_mpimage/jamrul-java-apple-white-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D109665&q=best&v=1&m=400",
                   "category_ids": [
                     11
@@ -2371,7 +2371,7 @@
                   "name": "Broiler Chicken Skin On ± 50 gm 1 kg",
                   "subtext": "1 kg",
                   "slug": "whole-broiler-chicken-skin-on-net-weight-1-kg",
-                  "price": 315,
+                  "price": 299,
                   "discounted_price": 289,
                   "image_url": "https://chaldn.com/_mpimage/broiler-chicken-skin-on-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163138&q=best&v=1&m=400",
                   "category_ids": [
@@ -2402,7 +2402,7 @@
                   "subtext": "1.4 kg",
                   "slug": "broiler-chicken-skin-off-50-gm-14-kg",
                   "price": 439,
-                  "discounted_price": 419,
+                  "discounted_price": 429,
                   "image_url": "https://chaldn.com/_mpimage/broiler-chicken-skin-off-50-gm-14-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163162&q=best&v=1&m=400",
                   "category_ids": [
                     1593
@@ -2461,7 +2461,7 @@
                   "subtext": "1 kg",
                   "slug": "broiler-chicken-thigh-boneless-50-gm-1-kg",
                   "price": 499,
-                  "discounted_price": 449,
+                  "discounted_price": 419,
                   "image_url": "https://chaldn.com/_mpimage/broiler-chicken-thigh-boneless-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74665&q=best&v=1&m=400",
                   "category_ids": [
                     1593,
@@ -2773,8 +2773,8 @@
                   "name": "Pangas Fish After Cutting ±50 gm 1 kg",
                   "subtext": "1 kg",
                   "slug": "deshi-pangas-after-cutting-net-weight-50-gm-1-kg",
-                  "price": 279,
-                  "discounted_price": 279,
+                  "price": 269,
+                  "discounted_price": 259,
                   "image_url": "https://chaldn.com/_mpimage/pangas-fish-after-cutting-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D177010&q=best&v=1&m=400",
                   "category_ids": [
                     1235
@@ -2825,20 +2825,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 13695,
-                  "name": "Shing Fish Processed ±30 gm 500 gm",
-                  "subtext": "500 gm",
-                  "slug": "shing-fish-after-cutting-500-gm",
-                  "price": 379,
-                  "discounted_price": 299,
-                  "image_url": "https://chaldn.com/_mpimage/shing-fish-processed-30-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D103459&q=best&v=1&m=400",
-                  "category_ids": [
-                    1235
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 22222,
                   "name": "Koi Fish Processed ±50 gm 1 kg",
                   "subtext": "1 kg",
@@ -2846,6 +2832,20 @@
                   "price": 395,
                   "discounted_price": 359,
                   "image_url": "https://chaldn.com/_mpimage/koi-fish-processed-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D120746&q=best&v=1&m=400",
+                  "category_ids": [
+                    1235
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 13695,
+                  "name": "Shing Fish Processed ±30 gm 500 gm",
+                  "subtext": "500 gm",
+                  "slug": "shing-fish-after-cutting-500-gm",
+                  "price": 379,
+                  "discounted_price": 269,
+                  "image_url": "https://chaldn.com/_mpimage/shing-fish-processed-30-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D103459&q=best&v=1&m=400",
                   "category_ids": [
                     1235
                   ],
@@ -8646,8 +8646,8 @@
                   "subtext": "6 pcs",
                   "slug": "chicken-eggs-layer-6-pcs",
                   "price": 69,
-                  "discounted_price": 65,
-                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182905&q=best&v=1&m=400",
+                  "discounted_price": 69,
+                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182905&q=best&v=1",
                   "category_ids": [
                     61,
                     1702
@@ -9982,8 +9982,8 @@
                   "subtext": "6 pcs",
                   "slug": "chicken-eggs-layer-6-pcs",
                   "price": 69,
-                  "discounted_price": 65,
-                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182905&q=best&v=1&m=400",
+                  "discounted_price": 69,
+                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182905&q=best&v=1",
                   "category_ids": [
                     61,
                     1702
@@ -13458,6 +13458,20 @@
                   "country_of_origin": "BD"
                 },
                 {
+                  "id": 15795,
+                  "name": "Bombay Sweets Chanachur 500 gm",
+                  "subtext": "500 gm",
+                  "slug": "bombay-sweets-chanachur-500-gm",
+                  "price": 150,
+                  "discounted_price": 150,
+                  "image_url": "https://chaldn.com/_mpimage/bombay-sweets-chanachur-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D179244&q=best&v=1",
+                  "category_ids": [
+                    52
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
                   "id": 3908,
                   "name": "Pran Badam Bhaja 18 gm 4 pcs",
                   "subtext": "4 pcs",
@@ -13468,20 +13482,6 @@
                   "category_ids": [
                     52,
                     56
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 15795,
-                  "name": "Bombay Sweets Chanachur 500 gm",
-                  "subtext": "500 gm",
-                  "slug": "bombay-sweets-chanachur-500-gm",
-                  "price": 150,
-                  "discounted_price": 150,
-                  "image_url": "https://chaldn.com/_mpimage/bombay-sweets-chanachur-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D179244&q=best&v=1",
-                  "category_ids": [
-                    52
                   ],
                   "is_age_restricted": false,
                   "country_of_origin": "BD"
@@ -15154,20 +15154,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 29777,
-                  "name": "Nestle Maggi Healthy Soup Thai Sachet 35 gm",
-                  "subtext": "35 gm",
-                  "slug": "nestle-maggi-healthy-soup-thai-sachet-35-gm-2",
-                  "price": 55,
-                  "discounted_price": 55,
-                  "image_url": "https://chaldn.com/_mpimage/nestle-maggi-healthy-soup-thai-sachet-35-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D133890&q=best&v=1",
-                  "category_ids": [
-                    194
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 29776,
                   "name": "Nestle Maggi Healthy Soup Corn With Chicken 25 gm",
                   "subtext": "25 gm",
@@ -15175,6 +15161,20 @@
                   "price": 55,
                   "discounted_price": 55,
                   "image_url": "https://chaldn.com/_mpimage/nestle-maggi-healthy-soup-corn-with-chicken-25-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D135319&q=best&v=1",
+                  "category_ids": [
+                    194
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 29777,
+                  "name": "Nestle Maggi Healthy Soup Thai Sachet 35 gm",
+                  "subtext": "35 gm",
+                  "slug": "nestle-maggi-healthy-soup-thai-sachet-35-gm-2",
+                  "price": 55,
+                  "discounted_price": 55,
+                  "image_url": "https://chaldn.com/_mpimage/nestle-maggi-healthy-soup-thai-sachet-35-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D133890&q=best&v=1",
                   "category_ids": [
                     194
                   ],
@@ -18944,7 +18944,7 @@
               "slug": "aci-supreme-antibacterial-detergent-powder-1kg",
               "price": 180,
               "discounted_price": 180,
-              "image_url": "https://chaldn.com/_mpimage/aci-supreme-antibacterial-detergent-powder-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D115138&q=best&v=1&m=400",
+              "image_url": "https://chaldn.com/_mpimage/aci-supreme-antibacterial-detergent-powder-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D115138&q=best&v=1",
               "category_ids": [
                 86
               ],
