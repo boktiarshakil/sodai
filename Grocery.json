@@ -1,7 +1,7 @@
 {
   "store": "chaldal",
   "base_url": "https://chaldal.com",
-  "fetched_at": "2026-06-06T08:30:39Z",
+  "fetched_at": "2026-06-07T08:51:34Z",
   "categories": [
     {
       "name": "Popular",
@@ -172,7 +172,7 @@
           "slug": "red-tomato-500-gm",
           "price": 70,
           "discounted_price": 59,
-          "image_url": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=best&v=1&m=400",
+          "image_url": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=best&v=1",
           "category_ids": [
             12,
             238
@@ -514,21 +514,6 @@
           "country_of_origin": "BD"
         },
         {
-          "id": 2520,
-          "name": "Wheel Washing Powder 2 in 1 Clean & Fresh 500 gm",
-          "subtext": "500 gm",
-          "slug": "wheel-washing-powder-2in1-clean-fresh-500-gm",
-          "price": 80,
-          "discounted_price": 80,
-          "image_url": "https://chaldn.com/_mpimage/wheel-washing-powder-2-in-1-clean-fresh-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D138276&q=best&v=1",
-          "category_ids": [
-            86,
-            238
-          ],
-          "is_age_restricted": false,
-          "country_of_origin": "BD"
-        },
-        {
           "id": 5936,
           "name": "Palong Shak (Palong Spinach) 1 bundle",
           "subtext": "1 bundle",
@@ -553,6 +538,21 @@
           "image_url": "https://chaldn.com/_mpimage/misti-kumra-fali-sweet-pumpkin-slice-40-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28900&q=low&v=1",
           "category_ids": [
             12,
+            238
+          ],
+          "is_age_restricted": false,
+          "country_of_origin": "BD"
+        },
+        {
+          "id": 2520,
+          "name": "Wheel Washing Powder 2 in 1 Clean & Fresh 500 gm",
+          "subtext": "500 gm",
+          "slug": "wheel-washing-powder-2in1-clean-fresh-500-gm",
+          "price": 80,
+          "discounted_price": 80,
+          "image_url": "https://chaldn.com/_mpimage/wheel-washing-powder-2-in-1-clean-fresh-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D138276&q=best&v=1",
+          "category_ids": [
+            86,
             238
           ],
           "is_age_restricted": false,
@@ -1170,7 +1170,7 @@
                   "slug": "red-tomato-500-gm",
                   "price": 70,
                   "discounted_price": 59,
-                  "image_url": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=best&v=1",
                   "category_ids": [
                     12,
                     238
@@ -2471,13 +2471,13 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 21555,
-                  "name": "Bengal Meat Whole Chicken Curry Cut ± 50 gm 1 kg",
+                  "id": 22526,
+                  "name": "Broiler Chicken Drumsticks ± 50 gm (9-12 pcs) 1 kg",
                   "subtext": "1 kg",
-                  "slug": "bengal-meat-chicken-pieces-bone-in-net-weight-50-gm-1-kg",
-                  "price": 465,
-                  "discounted_price": 465,
-                  "image_url": "https://chaldn.com/_mpimage/bengal-meat-whole-chicken-curry-cut-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74653&q=best&v=1&m=400",
+                  "slug": "chicken-drumstick-9-12-pcs-1-kg",
+                  "price": 499,
+                  "discounted_price": 499,
+                  "image_url": "https://chaldn.com/_mpimage/broiler-chicken-drumsticks-50-gm-9-12-pcs-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74667&q=best&v=1&m=400",
                   "category_ids": [
                     1593,
                     1696
@@ -2486,13 +2486,13 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 22526,
-                  "name": "Broiler Chicken Drumsticks ± 50 gm (9-12 pcs) 1 kg",
+                  "id": 21555,
+                  "name": "Bengal Meat Whole Chicken Curry Cut ± 50 gm 1 kg",
                   "subtext": "1 kg",
-                  "slug": "chicken-drumstick-9-12-pcs-1-kg",
-                  "price": 499,
-                  "discounted_price": 499,
-                  "image_url": "https://chaldn.com/_mpimage/broiler-chicken-drumsticks-50-gm-9-12-pcs-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74667&q=best&v=1&m=400",
+                  "slug": "bengal-meat-chicken-pieces-bone-in-net-weight-50-gm-1-kg",
+                  "price": 465,
+                  "discounted_price": 465,
+                  "image_url": "https://chaldn.com/_mpimage/bengal-meat-whole-chicken-curry-cut-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D74653&q=best&v=1",
                   "category_ids": [
                     1593,
                     1696
@@ -2831,7 +2831,7 @@
                   "slug": "koi-fish-processed-50-gm-1-kg",
                   "price": 395,
                   "discounted_price": 359,
-                  "image_url": "https://chaldn.com/_mpimage/koi-fish-processed-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D120746&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/koi-fish-processed-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D120746&q=best&v=1",
                   "category_ids": [
                     1235
                   ],
@@ -4653,13 +4653,13 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 6263,
-                  "name": "Chinigura Rice Premium 1 kg",
-                  "subtext": "1 kg",
-                  "slug": "chinigura-rice-premium-1-kg",
-                  "price": 159,
-                  "discounted_price": 149,
-                  "image_url": "https://chaldn.com/_mpimage/chinigura-rice-premium-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48071&q=best&v=1",
+                  "id": 6252,
+                  "name": "Nazirshail Rice Premium (Half Boiled) ± 50 gm 5 kg",
+                  "subtext": "5 kg",
+                  "slug": "nazirshail-rice-premium-half-boiled-50-gm-5-kg",
+                  "price": 479,
+                  "discounted_price": 449,
+                  "image_url": "https://chaldn.com/_mpimage/nazirshail-rice-premium-half-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48083&q=best&v=1",
                   "category_ids": [
                     80,
                     238
@@ -4668,13 +4668,13 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 6252,
-                  "name": "Nazirshail Rice Premium (Half Boiled) ± 50 gm 5 kg",
-                  "subtext": "5 kg",
-                  "slug": "nazirshail-rice-premium-half-boiled-50-gm-5-kg",
-                  "price": 479,
-                  "discounted_price": 449,
-                  "image_url": "https://chaldn.com/_mpimage/nazirshail-rice-premium-half-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48083&q=best&v=1",
+                  "id": 6263,
+                  "name": "Chinigura Rice Premium 1 kg",
+                  "subtext": "1 kg",
+                  "slug": "chinigura-rice-premium-1-kg",
+                  "price": 159,
+                  "discounted_price": 149,
+                  "image_url": "https://chaldn.com/_mpimage/chinigura-rice-premium-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48071&q=best&v=1",
                   "category_ids": [
                     80,
                     238
@@ -19975,20 +19975,6 @@
               "country_of_origin": "BD"
             },
             {
-              "id": 2290,
-              "name": "Lizol Disinfectant Surface & Floor Cleaner Citrus 500 ml",
-              "subtext": "500 ml",
-              "slug": "lizol-disinfectant-surface-floor-cleaner-citrus-500-ml",
-              "price": 160,
-              "discounted_price": 160,
-              "image_url": "https://chaldn.com/_mpimage/lizol-disinfectant-surface-floor-cleaner-citrus-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D179248&q=best&v=1",
-              "category_ids": [
-                1542
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "BD"
-            },
-            {
               "id": 5683,
               "name": "Lizol Floor Cleaner Citrus Disinfectant Surface 1 ltr",
               "subtext": "1 ltr",
@@ -19996,6 +19982,20 @@
               "price": 300,
               "discounted_price": 300,
               "image_url": "https://chaldn.com/_mpimage/lizol-floor-cleaner-citrus-disinfectant-surface-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D179249&q=best&v=1",
+              "category_ids": [
+                1542
+              ],
+              "is_age_restricted": false,
+              "country_of_origin": "BD"
+            },
+            {
+              "id": 2290,
+              "name": "Lizol Disinfectant Surface & Floor Cleaner Citrus 500 ml",
+              "subtext": "500 ml",
+              "slug": "lizol-disinfectant-surface-floor-cleaner-citrus-500-ml",
+              "price": 160,
+              "discounted_price": 160,
+              "image_url": "https://chaldn.com/_mpimage/lizol-disinfectant-surface-floor-cleaner-citrus-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D179248&q=best&v=1",
               "category_ids": [
                 1542
               ],
