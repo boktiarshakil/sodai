@@ -1,7 +1,7 @@
 {
   "store": "chaldal",
   "base_url": "https://chaldal.com",
-  "fetched_at": "2026-06-17T10:47:15Z",
+  "fetched_at": "2026-06-18T10:17:51Z",
   "categories": [
     {
       "name": "Popular",
@@ -157,7 +157,7 @@
           "slug": "red-tomato-500-gm",
           "price": 100,
           "discounted_price": 79,
-          "image_url": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=best&v=1&m=400",
+          "image_url": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=best&v=1",
           "category_ids": [
             12,
             238
@@ -202,7 +202,7 @@
           "slug": "garlic-roshun-premium-500-gm-2",
           "price": 109,
           "discounted_price": 75,
-          "image_url": "https://chaldn.com/_mpimage/roshun-garlic-imported-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D89993&q=best&v=1&m=400",
+          "image_url": "https://chaldn.com/_mpimage/roshun-garlic-imported-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D89993&q=best&v=1",
           "category_ids": [
             12,
             238
@@ -232,7 +232,7 @@
           "slug": "kacha-morich-green-chilli-12-gm-250-gm",
           "price": 35,
           "discounted_price": 29,
-          "image_url": "https://chaldn.com/_mpimage/kacha-morich-green-chilli-12-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28576&q=low&v=1&m=400",
+          "image_url": "https://chaldn.com/_mpimage/kacha-morich-green-chilli-12-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28576&q=low&v=1",
           "category_ids": [
             238,
             12
@@ -368,7 +368,7 @@
           "slug": "lal-shak-1-bundle",
           "price": 29,
           "discounted_price": 15,
-          "image_url": "https://chaldn.com/_mpimage/lal-shak-red-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7226&q=low&v=1&m=400",
+          "image_url": "https://chaldn.com/_mpimage/lal-shak-red-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7226&q=low&v=1",
           "category_ids": [
             12,
             238
@@ -625,7 +625,7 @@
           "slug": "guava-thai-1-kg",
           "price": 120,
           "discounted_price": 109,
-          "image_url": "https://chaldn.com/_mpimage/guava-premium-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D67818&q=best&v=1&m=400",
+          "image_url": "https://chaldn.com/_mpimage/guava-premium-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D67818&q=best&v=1",
           "category_ids": [
             11,
             238
@@ -1170,7 +1170,7 @@
                   "slug": "red-tomato-500-gm",
                   "price": 100,
                   "discounted_price": 79,
-                  "image_url": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/red-tomato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64361&q=best&v=1",
                   "category_ids": [
                     12,
                     238
@@ -1200,7 +1200,7 @@
                   "slug": "garlic-roshun-premium-500-gm-2",
                   "price": 109,
                   "discounted_price": 75,
-                  "image_url": "https://chaldn.com/_mpimage/roshun-garlic-imported-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D89993&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/roshun-garlic-imported-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D89993&q=best&v=1",
                   "category_ids": [
                     12,
                     238
@@ -1230,7 +1230,7 @@
                   "slug": "kacha-morich-green-chilli-12-gm-250-gm",
                   "price": 35,
                   "discounted_price": 29,
-                  "image_url": "https://chaldn.com/_mpimage/kacha-morich-green-chilli-12-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28576&q=low&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/kacha-morich-green-chilli-12-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28576&q=low&v=1",
                   "category_ids": [
                     238,
                     12
@@ -1275,7 +1275,7 @@
                   "slug": "lal-shak-1-bundle",
                   "price": 29,
                   "discounted_price": 15,
-                  "image_url": "https://chaldn.com/_mpimage/lal-shak-red-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7226&q=low&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/lal-shak-red-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7226&q=low&v=1",
                   "category_ids": [
                     12,
                     238
@@ -1426,7 +1426,7 @@
                   "slug": "cauliflower-b-grade-1-pcs-2",
                   "price": 80,
                   "discounted_price": 69,
-                  "image_url": "https://chaldn.com/_mpimage/fulkopi-cauliflower-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D46971&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/fulkopi-cauliflower-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D46971&q=best&v=1",
                   "category_ids": [
                     12
                   ],
@@ -1440,7 +1440,7 @@
                   "slug": "water-spinach-1-bundle",
                   "price": 19,
                   "discounted_price": 19,
-                  "image_url": "https://chaldn.com/_mpimage/kolmi-shak-water-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28561&q=low&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/kolmi-shak-water-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28561&q=low&v=1",
                   "category_ids": [
                     12
                   ],
@@ -1619,20 +1619,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 6228,
-                  "name": "Pui Shak (Pui Spinach) 1 bundle",
-                  "subtext": "1 bundle",
-                  "slug": "pui-shak-pui-spinach1-bundle",
-                  "price": 39,
-                  "discounted_price": 39,
-                  "image_url": "https://chaldn.com/_mpimage/pui-shak-pui-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7071&q=low&v=1&m=400",
-                  "category_ids": [
-                    12
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 6337,
                   "name": "Korola (Bitter Gourd) ± 25 gm 500 gm",
                   "subtext": "500 gm",
@@ -1640,6 +1626,20 @@
                   "price": 45,
                   "discounted_price": 39,
                   "image_url": "https://chaldn.com/_mpimage/korola-bitter-gourd-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D22416&q=low&v=1",
+                  "category_ids": [
+                    12
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 6228,
+                  "name": "Pui Shak (Pui Spinach) 1 bundle",
+                  "subtext": "1 bundle",
+                  "slug": "pui-shak-pui-spinach1-bundle",
+                  "price": 39,
+                  "discounted_price": 39,
+                  "image_url": "https://chaldn.com/_mpimage/pui-shak-pui-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7071&q=low&v=1",
                   "category_ids": [
                     12
                   ],
@@ -1717,20 +1717,6 @@
                   "country_of_origin": "CN"
                 },
                 {
-                  "id": 9589,
-                  "name": "Dhundhul (Sponge Gourd) ±20 gm 500 gm",
-                  "subtext": "500 gm",
-                  "slug": "sponge-gourd-dhundul-500-gm",
-                  "price": 45,
-                  "discounted_price": 35,
-                  "image_url": "https://chaldn.com/_mpimage/dhundhul-sponge-gourd-20-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D77228&q=low&v=1&m=400",
-                  "category_ids": [
-                    12
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 7115,
                   "name": "Kochur Loti (Stolon Of Taro) ± 25 gm 500 gm",
                   "subtext": "500 gm",
@@ -1738,6 +1724,20 @@
                   "price": 45,
                   "discounted_price": 39,
                   "image_url": "https://chaldn.com/_mpimage/kochur-loti-stolon-of-taro-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64498&q=low&v=1",
+                  "category_ids": [
+                    12
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 9589,
+                  "name": "Dhundhul (Sponge Gourd) ±20 gm 500 gm",
+                  "subtext": "500 gm",
+                  "slug": "sponge-gourd-dhundul-500-gm",
+                  "price": 45,
+                  "discounted_price": 35,
+                  "image_url": "https://chaldn.com/_mpimage/dhundhul-sponge-gourd-20-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D77228&q=low&v=1",
                   "category_ids": [
                     12
                   ],
@@ -1931,7 +1931,7 @@
                   "slug": "guava-thai-1-kg",
                   "price": 120,
                   "discounted_price": 109,
-                  "image_url": "https://chaldn.com/_mpimage/guava-premium-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D67818&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/guava-premium-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D67818&q=best&v=1",
                   "category_ids": [
                     11,
                     238
@@ -2172,7 +2172,7 @@
                   "slug": "banana-sobri-6-pcs",
                   "price": 55,
                   "discounted_price": 55,
-                  "image_url": "https://chaldn.com/_mpimage/banana-sobri-4-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D76878&q=low&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/banana-sobri-4-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D76878&q=low&v=1",
                   "category_ids": [
                     11
                   ],
@@ -2186,7 +2186,7 @@
                   "slug": "green-grapes-250-gm",
                   "price": 159,
                   "discounted_price": 159,
-                  "image_url": "https://chaldn.com/_mpimage/sobuj-angur-green-grapes-12-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D134876&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/sobuj-angur-green-grapes-12-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D134876&q=best&v=1",
                   "category_ids": [
                     11
                   ],
@@ -2256,7 +2256,7 @@
                   "slug": "dragon-fruit-local-net-weight-100-gm-1-kg",
                   "price": 249,
                   "discounted_price": 229,
-                  "image_url": "https://chaldn.com/_mpimage/dragon-fruit-local-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D93407&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/dragon-fruit-local-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D93407&q=best&v=1",
                   "category_ids": [
                     11
                   ],
@@ -2326,7 +2326,7 @@
                   "slug": "lychee-premium-50-pcs",
                   "price": 300,
                   "discounted_price": 279,
-                  "image_url": "https://chaldn.com/_mpimage/lychee-premium-50-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D36706&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/lychee-premium-50-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D36706&q=best&v=1",
                   "category_ids": [
                     11
                   ],
@@ -3704,20 +3704,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 58736,
-                  "name": "Golden Grain Bay Leaf (Tejpata) 100 gm",
-                  "subtext": "100 gm",
-                  "slug": "golden-grain-bay-leaf-tejpata-100-gm",
-                  "price": 55,
-                  "discounted_price": 55,
-                  "image_url": "https://chaldn.com/_mpimage/golden-grain-bay-leaf-tejpata-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D187913&q=best&v=1",
-                  "category_ids": [
-                    107
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 58755,
                   "name": "Golden Grain Poppy Seed (Posto Dana) 50 gm",
                   "subtext": "50 gm",
@@ -3739,6 +3725,20 @@
                   "price": 145,
                   "discounted_price": 145,
                   "image_url": "https://chaldn.com/_mpimage/golden-grain-clove-lobongo-50-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D187898&q=best&v=1",
+                  "category_ids": [
+                    107
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 58736,
+                  "name": "Golden Grain Bay Leaf (Tejpata) 100 gm",
+                  "subtext": "100 gm",
+                  "slug": "golden-grain-bay-leaf-tejpata-100-gm",
+                  "price": 55,
+                  "discounted_price": 55,
+                  "image_url": "https://chaldn.com/_mpimage/golden-grain-bay-leaf-tejpata-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D187913&q=best&v=1",
                   "category_ids": [
                     107
                   ],
@@ -4133,20 +4133,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 2419,
-                  "name": "Radhuni Cumin (Jira) Powder 50 gm",
-                  "subtext": "50 gm",
-                  "slug": "radhuni-cumin-powder-50-gm",
-                  "price": 85,
-                  "discounted_price": 85,
-                  "image_url": "https://chaldn.com/_mpimage/radhuni-cumin-jira-powder-50-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132522&q=best&v=1",
-                  "category_ids": [
-                    107
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 24458,
                   "name": "Chia Seed 100 gm",
                   "subtext": "100 gm",
@@ -4158,6 +4144,20 @@
                     107,
                     1266,
                     1505
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 2419,
+                  "name": "Radhuni Cumin (Jira) Powder 50 gm",
+                  "subtext": "50 gm",
+                  "slug": "radhuni-cumin-powder-50-gm",
+                  "price": 85,
+                  "discounted_price": 85,
+                  "image_url": "https://chaldn.com/_mpimage/radhuni-cumin-jira-powder-50-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132522&q=best&v=1",
+                  "category_ids": [
+                    107
                   ],
                   "is_age_restricted": false,
                   "country_of_origin": "BD"
@@ -6331,20 +6331,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 7604,
-                  "name": "Fortune Fortified Rice Bran Oil 5 ltr",
-                  "subtext": "5 ltr",
-                  "slug": "fortune-fortified-rice-bran-oil-5-ltr",
-                  "price": 1175,
-                  "discounted_price": 1175,
-                  "image_url": "https://chaldn.com/_mpimage/fortune-fortified-rice-bran-oil-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182968&q=best&v=1",
-                  "category_ids": [
-                    108
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 55720,
                   "name": "Fresh Rice Bran Oil 5 ltr",
                   "subtext": "5 ltr",
@@ -6352,6 +6338,20 @@
                   "price": 1080,
                   "discounted_price": 1080,
                   "image_url": "https://chaldn.com/_mpimage/fresh-rice-bran-oil-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D178229&q=best&v=1",
+                  "category_ids": [
+                    108
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 7604,
+                  "name": "Fortune Fortified Rice Bran Oil 5 ltr",
+                  "subtext": "5 ltr",
+                  "slug": "fortune-fortified-rice-bran-oil-5-ltr",
+                  "price": 1175,
+                  "discounted_price": 1175,
+                  "image_url": "https://chaldn.com/_mpimage/fortune-fortified-rice-bran-oil-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182968&q=best&v=1",
                   "category_ids": [
                     108
                   ],
@@ -6401,20 +6401,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 50946,
-                  "name": "Ecorganic Fortified Sunflower Oil Pet 5 ltr",
-                  "subtext": "5 ltr",
-                  "slug": "ecorganic-fortified-sunflower-oil-pet-5-ltr",
-                  "price": 2125,
-                  "discounted_price": 2125,
-                  "image_url": "https://chaldn.com/_mpimage/ecorganic-fortified-sunflower-oil-pet-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163383&q=best&v=1",
-                  "category_ids": [
-                    108
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "UA"
-                },
-                {
                   "id": 3669,
                   "name": "King's Sunflower Oil Pet 5 ltr",
                   "subtext": "5 ltr",
@@ -6441,6 +6427,20 @@
                   ],
                   "is_age_restricted": false,
                   "country_of_origin": "BD"
+                },
+                {
+                  "id": 50946,
+                  "name": "Ecorganic Fortified Sunflower Oil Pet 5 ltr",
+                  "subtext": "5 ltr",
+                  "slug": "ecorganic-fortified-sunflower-oil-pet-5-ltr",
+                  "price": 2125,
+                  "discounted_price": 2125,
+                  "image_url": "https://chaldn.com/_mpimage/ecorganic-fortified-sunflower-oil-pet-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163383&q=best&v=1",
+                  "category_ids": [
+                    108
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "UA"
                 },
                 {
                   "id": 9155,
@@ -8182,376 +8182,9 @@
               "name": "Cooking Sauces",
               "cid": "1703",
               "has_arrow": false,
-              "url": "https://chaldal.com/cooking-sauces",
+              "url": null,
               "subcategories": [],
-              "products": [
-                {
-                  "id": 55329,
-                  "name": "Ching's Green Chilli Sauce 680 gm",
-                  "subtext": "680 gm",
-                  "slug": "chings-green-chilli-sauce-680-gm",
-                  "price": 350,
-                  "discounted_price": 350,
-                  "image_url": "https://chaldn.com/_mpimage/chings-green-chilli-sauce-680-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D177093&q=best&v=1",
-                  "category_ids": [
-                    1633,
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "IN"
-                },
-                {
-                  "id": 55328,
-                  "name": "Ching's Green Chilli Sauce 190 gm",
-                  "subtext": "190 gm",
-                  "slug": "chings-green-chilli-sauce-190-gm",
-                  "price": 150,
-                  "discounted_price": 150,
-                  "image_url": "https://chaldn.com/_mpimage/chings-green-chilli-sauce-190-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D177092&q=best&v=1",
-                  "category_ids": [
-                    1633,
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "IN"
-                },
-                {
-                  "id": 55327,
-                  "name": "Ching's Chilli Sauce 680 gm",
-                  "subtext": "680 gm",
-                  "slug": "chings-chilli-sauce-680-gm",
-                  "price": 350,
-                  "discounted_price": 350,
-                  "image_url": "https://chaldn.com/_mpimage/chings-chilli-sauce-680-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D177091&q=best&v=1",
-                  "category_ids": [
-                    1633,
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "IN"
-                },
-                {
-                  "id": 38337,
-                  "name": "Saad Sweet Chilli Sauce 340 gm",
-                  "subtext": "340 gm",
-                  "slug": "saad-sweet-chilli-sauce-340-gm",
-                  "price": 150,
-                  "discounted_price": 150,
-                  "image_url": "https://chaldn.com/_mpimage/saad-sweet-chilli-sauce-340-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D126528&q=best&v=1",
-                  "category_ids": [
-                    1633,
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 9841,
-                  "name": "Maekrua Oyster Sauce 600 ml",
-                  "subtext": "600 ml",
-                  "slug": "maekrua-oyster-sauce-600-ml",
-                  "price": 800,
-                  "discounted_price": 639,
-                  "image_url": "https://chaldn.com/_mpimage/maekrua-oyster-sauce-600-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D47535&q=best&v=1",
-                  "category_ids": [
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "TH"
-                },
-                {
-                  "id": 2274,
-                  "name": "Kikkoman Premium Soy Sauce 600 ml",
-                  "subtext": "600 ml",
-                  "slug": "kikkoman-premium-soy-sauce-600-ml",
-                  "price": 679,
-                  "discounted_price": 679,
-                  "image_url": "https://chaldn.com/_mpimage/kikkoman-premium-soy-sauce-600-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D109792&q=best&v=1",
-                  "category_ids": [
-                    1703,
-                    1372
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "JP"
-                },
-                {
-                  "id": 18657,
-                  "name": "Sajeeb Soya Sauce 300 ml",
-                  "subtext": "300 ml",
-                  "slug": "sajeeb-soya-sauce-300-ml",
-                  "price": 100,
-                  "discounted_price": 100,
-                  "image_url": "https://chaldn.com/_mpimage/sajeeb-soya-sauce-300-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D133113&q=best&v=1",
-                  "category_ids": [
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 2151,
-                  "name": "Best's Chilli & Garlic Sauce 320 gm",
-                  "subtext": "320 gm",
-                  "slug": "bests-chilli-garlic-sauce-320-gm",
-                  "price": 210,
-                  "discounted_price": 210,
-                  "image_url": "https://chaldn.com/_mpimage/bests-chilli-garlic-sauce-320-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D125672&q=best&v=1",
-                  "category_ids": [
-                    1633,
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "MY"
-                },
-                {
-                  "id": 7946,
-                  "name": "Best's Tomato Puree 400 gm",
-                  "subtext": "400 gm",
-                  "slug": "bests-tomato-puree-400-gm",
-                  "price": 174,
-                  "discounted_price": 174,
-                  "image_url": "https://chaldn.com/_mpimage/bests-tomato-puree-400-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D154143&q=best&v=1&m=400",
-                  "category_ids": [
-                    1632,
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "MY"
-                },
-                {
-                  "id": 56117,
-                  "name": "Kikkoman Soy Sauce 1 ltr",
-                  "subtext": "1 ltr",
-                  "slug": "kikkoman-soy-sauce-1-ltr",
-                  "price": 1499,
-                  "discounted_price": 1499,
-                  "image_url": "https://chaldn.com/_mpimage/kikkoman-soy-sauce-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D180155&q=best&v=1",
-                  "category_ids": [
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "JP"
-                },
-                {
-                  "id": 55261,
-                  "name": "Ruchi Sweet Chili Sauce 200 gm",
-                  "subtext": "200 gm",
-                  "slug": "ruchi-sweet-chili-sauce-200-gm",
-                  "price": 90,
-                  "discounted_price": 90,
-                  "image_url": "https://chaldn.com/_mpimage/ruchi-sweet-chili-sauce-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D176909&q=best&v=1",
-                  "category_ids": [
-                    1633,
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 55259,
-                  "name": "Ruchi BBQ Sauce 200 gm",
-                  "subtext": "200 gm",
-                  "slug": "ruchi-bbq-sauce-200-gm",
-                  "price": 150,
-                  "discounted_price": 150,
-                  "image_url": "https://chaldn.com/_mpimage/ruchi-bbq-sauce-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D176905&q=best&v=1",
-                  "category_ids": [
-                    1633,
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 47582,
-                  "name": "Blossoms Dark Soya Sauce 500 ml",
-                  "subtext": "500 ml",
-                  "slug": "blossoms-dark-soya-sauce-500-ml",
-                  "price": 429,
-                  "discounted_price": 429,
-                  "image_url": "https://chaldn.com/_mpimage/blossoms-dark-soya-sauce-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D148502&q=best&v=1",
-                  "category_ids": [
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "CN"
-                },
-                {
-                  "id": 27764,
-                  "name": "Chef Le Dark Soya Sauce 500 ml",
-                  "subtext": "500 ml",
-                  "slug": "chef-le-dark-soya-sauce-500-ml",
-                  "price": 310,
-                  "discounted_price": 310,
-                  "image_url": "https://chaldn.com/_mpimage/chef-le-dark-soya-sauce-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D88028&q=best&v=1&m=400",
-                  "category_ids": [
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "CN"
-                },
-                {
-                  "id": 27763,
-                  "name": "Chef Le Dark Soya Sauce 250 ml",
-                  "subtext": "250 ml",
-                  "slug": "chef-le-dark-soya-sauce-250-ml",
-                  "price": 174,
-                  "discounted_price": 174,
-                  "image_url": "https://chaldn.com/_mpimage/chef-le-dark-soya-sauce-250-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D88027&q=best&v=1",
-                  "category_ids": [
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "CN"
-                },
-                {
-                  "id": 27762,
-                  "name": "Chef Le Light Soya Sauce 500 ml",
-                  "subtext": "500 ml",
-                  "slug": "chef-le-light-soya-sauce-500-ml",
-                  "price": 294,
-                  "discounted_price": 294,
-                  "image_url": "https://chaldn.com/_mpimage/chef-le-light-soya-sauce-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D88026&q=best&v=1",
-                  "category_ids": [
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "CN"
-                },
-                {
-                  "id": 21460,
-                  "name": "American Garden Pizza Sauce Classic 397 ml",
-                  "subtext": "397 ml",
-                  "slug": "american-garden-pizza-sauce-classic-397-ml",
-                  "price": 670,
-                  "discounted_price": 670,
-                  "image_url": "https://chaldn.com/_mpimage/american-garden-pizza-sauce-classic-397-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D177295&q=best&v=1",
-                  "category_ids": [
-                    79,
-                    1372,
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "US"
-                },
-                {
-                  "id": 16957,
-                  "name": "Ahmed Garlic Sauce 340 gm",
-                  "subtext": "340 gm",
-                  "slug": "ahmed-garlic-sauce-340-gm",
-                  "price": 140,
-                  "discounted_price": 140,
-                  "image_url": "https://chaldn.com/_mpimage/ahmed-garlic-sauce-340-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D122987&q=best&v=1",
-                  "category_ids": [
-                    1633,
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 11497,
-                  "name": "Nando's Garlic Sauce 250 gm",
-                  "subtext": "250 gm",
-                  "slug": "nandos-garlic-sauce-250-gm-2",
-                  "price": 550,
-                  "discounted_price": 550,
-                  "image_url": "https://chaldn.com/_mpimage/nandos-garlic-sauce-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D131207&q=best&v=1",
-                  "category_ids": [
-                    1633,
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "ZA"
-                },
-                {
-                  "id": 10933,
-                  "name": "Umami BBQ Sauce 300 ml",
-                  "subtext": "300 ml",
-                  "slug": "umami-bbq-sauce-300-ml",
-                  "price": 275,
-                  "discounted_price": 275,
-                  "image_url": "https://chaldn.com/_mpimage/umami-bbq-sauce-300-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D136613&q=best&v=1",
-                  "category_ids": [
-                    1633,
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "TH"
-                },
-                {
-                  "id": 6504,
-                  "name": "American Garden BBQ Sauce Original 510 gm",
-                  "subtext": "510 gm",
-                  "slug": "american-garden-bbq-sauce-original-510-gm-2-2",
-                  "price": 639,
-                  "discounted_price": 639,
-                  "image_url": "https://chaldn.com/_mpimage/american-garden-bbq-sauce-original-510-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D180813&q=best&v=1",
-                  "category_ids": [
-                    1633,
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "US"
-                },
-                {
-                  "id": 4084,
-                  "name": "Remia Garlic Sauce 250 ml",
-                  "subtext": "250 ml",
-                  "slug": "remia-garlic-sauce-250-ml",
-                  "price": 330,
-                  "discounted_price": 299,
-                  "image_url": "https://chaldn.com/_mpimage/remia-garlic-sauce-250-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D155042&q=best&v=1",
-                  "category_ids": [
-                    1633,
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "NL"
-                },
-                {
-                  "id": 3225,
-                  "name": "Bachun Oyster Sauce 350 ml",
-                  "subtext": "350 ml",
-                  "slug": "bachun-oyster-sauce-350-ml",
-                  "price": 450,
-                  "discounted_price": 450,
-                  "image_url": "https://chaldn.com/_mpimage/bachun-oyster-sauce-350-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D125329&q=best&v=1&m=400",
-                  "category_ids": [
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "SG"
-                },
-                {
-                  "id": 2286,
-                  "name": "Life Oyster Flavoured Sauce 510 gm",
-                  "subtext": "510 gm",
-                  "slug": "life-oyster-flavoured-sauce-510-gm-5",
-                  "price": 382,
-                  "discounted_price": 382,
-                  "image_url": "https://chaldn.com/_mpimage/life-oyster-flavoured-sauce-510-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D130069&q=best&v=1&m=400",
-                  "category_ids": [
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "MY"
-                },
-                {
-                  "id": 4207,
-                  "name": "Suree Premium Oyster Sauce 295 ml",
-                  "subtext": "295 ml",
-                  "slug": "suree-premium-oyster-sauce-295-ml",
-                  "price": 435,
-                  "discounted_price": 435,
-                  "image_url": "https://chaldn.com/_mpimage/suree-premium-oyster-sauce-295-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D136017&q=best&v=1",
-                  "category_ids": [
-                    1703
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                }
-              ]
+              "products": []
             },
             {
               "name": "Other Table Sauces",
@@ -8575,132 +8208,7 @@
               "has_arrow": false,
               "url": "https://chaldal.com/eggs",
               "subcategories": [],
-              "products": [
-                {
-                  "id": 4248,
-                  "name": "Chicken Eggs (Layer) 12 pcs",
-                  "subtext": "12 pcs",
-                  "slug": "tatka-egg-pack-12-pcs",
-                  "price": 139,
-                  "discounted_price": 129,
-                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79219&q=best&v=1",
-                  "category_ids": [
-                    61,
-                    238,
-                    1702
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 51881,
-                  "name": "Chicken Eggs Layer (White) 12 pcs",
-                  "subtext": "12 pcs",
-                  "slug": "chicken-eggs-layer-white-12-pcs",
-                  "price": 125,
-                  "discounted_price": 119,
-                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-white-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165811&q=best&v=1",
-                  "category_ids": [
-                    61,
-                    238,
-                    1702
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 5609,
-                  "name": "Chicken Eggs (Deshi) 6 pcs",
-                  "subtext": "6 pcs",
-                  "slug": "chicken-eggs-deshi-6-pcs",
-                  "price": 125,
-                  "discounted_price": 109,
-                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-deshi-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79976&q=best&v=1",
-                  "category_ids": [
-                    61,
-                    1702
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 8474,
-                  "name": "Duck Eggs (Hasher Dim) 6 pcs",
-                  "subtext": "6 pcs",
-                  "slug": "duck-egg-6-pcs",
-                  "price": 115,
-                  "discounted_price": 115,
-                  "image_url": "https://chaldn.com/_mpimage/duck-eggs-hasher-dim-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79970&q=best&v=1",
-                  "category_ids": [
-                    61,
-                    1505,
-                    1702
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 23144,
-                  "name": "Chicken Eggs (Layer) 6 pcs",
-                  "subtext": "6 pcs",
-                  "slug": "chicken-eggs-layer-6-pcs",
-                  "price": 69,
-                  "discounted_price": 65,
-                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182905&q=best&v=1",
-                  "category_ids": [
-                    61,
-                    1702
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 3158,
-                  "name": "Quail Eggs 20 pcs",
-                  "subtext": "20 pcs",
-                  "slug": "quail-eggs-20-pcs",
-                  "price": 95,
-                  "discounted_price": 89,
-                  "image_url": "https://chaldn.com/_mpimage/quail-eggs-20-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D79220&q=best&v=1",
-                  "category_ids": [
-                    61,
-                    1505,
-                    1702
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 51880,
-                  "name": "Chicken Eggs Layer (White) 6 pcs",
-                  "subtext": "6 pcs",
-                  "slug": "chicken-eggs-layer-white-6-pcs",
-                  "price": 65,
-                  "discounted_price": 65,
-                  "image_url": "https://chaldn.com/_mpimage/chicken-eggs-layer-white-6-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165810&q=best&v=1&m=400",
-                  "category_ids": [
-                    61,
-                    1702
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 23837,
-                  "name": "Paragon Omega 3+ Eggs 12 pcs",
-                  "subtext": "12 pcs",
-                  "slug": "paragon-omega-3-eggs-12-pcs",
-                  "price": 265,
-                  "discounted_price": 265,
-                  "image_url": "https://chaldn.com/_mpimage/paragon-omega-3-eggs-12-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D131999&q=best&v=1",
-                  "category_ids": [
-                    61,
-                    1702
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                }
-              ]
+              "products": []
             },
             {
               "name": "Powder Milk",
@@ -10042,84 +9550,9 @@
               "name": "Breads",
               "cid": "74",
               "has_arrow": false,
-              "url": "https://chaldal.com/breads",
+              "url": null,
               "subcategories": [],
-              "products": [
-                {
-                  "id": 3126,
-                  "name": "Bread Pit White Bread 500 gm",
-                  "subtext": "500 gm",
-                  "slug": "bread-pit-white-bread-500-gm",
-                  "price": 110,
-                  "discounted_price": 110,
-                  "image_url": "https://chaldn.com/_mpimage/bread-pit-white-bread-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D70765&q=best&v=1",
-                  "category_ids": [
-                    74,
-                    228
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 35918,
-                  "name": "White Bread 500 gm",
-                  "subtext": "500 gm",
-                  "slug": "white-bread-500-gm",
-                  "price": 70,
-                  "discounted_price": 70,
-                  "image_url": "https://chaldn.com/_mpimage/white-bread-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D114580&q=best&v=1&m=400",
-                  "category_ids": [
-                    74,
-                    228
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 3129,
-                  "name": "Bread Pit Burger Bun 4 pcs",
-                  "subtext": "4 pcs",
-                  "slug": "bread-pit-burger-ban-2-pcs",
-                  "price": 90,
-                  "discounted_price": 90,
-                  "image_url": "https://chaldn.com/_mpimage/bread-pit-burger-bun-4-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D47937&q=best&v=1",
-                  "category_ids": [
-                    74
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 35919,
-                  "name": "Bread Pit Milk Bread 300 gm",
-                  "subtext": "300 gm",
-                  "slug": "bread-pit-milk-bread-300-gm",
-                  "price": 120,
-                  "discounted_price": 120,
-                  "image_url": "https://chaldn.com/_mpimage/bread-pit-milk-bread-300-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D114581&q=best&v=1&m=400",
-                  "category_ids": [
-                    74,
-                    228
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 26018,
-                  "name": "Bread Pit Multigrain Bread 300 gm",
-                  "subtext": "300 gm",
-                  "slug": "bread-pit-multigrain-bread-300-gm",
-                  "price": 149,
-                  "discounted_price": 149,
-                  "image_url": "https://chaldn.com/_mpimage/bread-pit-multigrain-bread-300-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D82293&q=best&v=1&m=400",
-                  "category_ids": [
-                    74,
-                    228
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                }
-              ]
+              "products": []
             },
             {
               "name": "Tea & Coffee",
@@ -10317,20 +9750,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 31022,
-                  "name": "Farmer's Gold White Flattened Rice (Sada Chira) 1 kg",
-                  "subtext": "1 kg",
-                  "slug": "farmers-gold-white-flattened-rice-sada-chira-1-kg",
-                  "price": 120,
-                  "discounted_price": 120,
-                  "image_url": "https://chaldn.com/_mpimage/farmers-gold-white-flattened-rice-sada-chira-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D131682&q=best&v=1",
-                  "category_ids": [
-                    228
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 26018,
                   "name": "Bread Pit Multigrain Bread 300 gm",
                   "subtext": "300 gm",
@@ -10340,6 +9759,20 @@
                   "image_url": "https://chaldn.com/_mpimage/bread-pit-multigrain-bread-300-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D82293&q=best&v=1&m=400",
                   "category_ids": [
                     74,
+                    228
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 31022,
+                  "name": "Farmer's Gold White Flattened Rice (Sada Chira) 1 kg",
+                  "subtext": "1 kg",
+                  "slug": "farmers-gold-white-flattened-rice-sada-chira-1-kg",
+                  "price": 120,
+                  "discounted_price": 120,
+                  "image_url": "https://chaldn.com/_mpimage/farmers-gold-white-flattened-rice-sada-chira-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D131682&q=best&v=1",
+                  "category_ids": [
                     228
                   ],
                   "is_age_restricted": false,
@@ -13443,20 +12876,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 37757,
-                  "name": "Ruchi Jhal Chanachur 500 gm",
-                  "subtext": "500 gm",
-                  "slug": "ruchi-jhal-chanachur-500-gm",
-                  "price": 150,
-                  "discounted_price": 150,
-                  "image_url": "https://chaldn.com/_mpimage/ruchi-jhal-chanachur-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169198&q=best&v=1",
-                  "category_ids": [
-                    52
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 2433,
                   "name": "Ruchi Bbq Chanachur 300 gm",
                   "subtext": "300 gm",
@@ -13464,6 +12883,20 @@
                   "price": 100,
                   "discounted_price": 100,
                   "image_url": "https://chaldn.com/_mpimage/ruchi-bbq-chanachur-300-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169199&q=best&v=1",
+                  "category_ids": [
+                    52
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 37757,
+                  "name": "Ruchi Jhal Chanachur 500 gm",
+                  "subtext": "500 gm",
+                  "slug": "ruchi-jhal-chanachur-500-gm",
+                  "price": 150,
+                  "discounted_price": 150,
+                  "image_url": "https://chaldn.com/_mpimage/ruchi-jhal-chanachur-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D169198&q=best&v=1",
                   "category_ids": [
                     52
                   ],
@@ -13753,20 +13186,6 @@
                   ],
                   "is_age_restricted": false,
                   "country_of_origin": "BD"
-                },
-                {
-                  "id": 57257,
-                  "name": "Ramisa Gurer Monakka 200 gm",
-                  "subtext": "200 gm",
-                  "slug": "ramisa-gurer-monakka-200-gm",
-                  "price": 70,
-                  "discounted_price": 70,
-                  "image_url": "https://chaldn.com/_mpimage/ramisa-gurer-monakka-200-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D185384&q=best&v=1",
-                  "category_ids": [
-                    52
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
                 }
               ]
             },
@@ -13876,20 +13295,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 4375,
-                  "name": "Sun Chips Mix Masala 20 gm",
-                  "subtext": "20 gm",
-                  "slug": "sun-chips-mix-masala-20-gm",
-                  "price": 20,
-                  "discounted_price": 20,
-                  "image_url": "https://chaldn.com/_mpimage/sun-chips-mix-masala-20-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D168336&q=best&v=1",
-                  "category_ids": [
-                    53
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 30695,
                   "name": "Pran Potato Cracker 15 gm",
                   "subtext": "15 gm",
@@ -13897,6 +13302,20 @@
                   "price": 10,
                   "discounted_price": 10,
                   "image_url": "https://chaldn.com/_mpimage/pran-potato-cracker-15-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D152284&q=best&v=1",
+                  "category_ids": [
+                    53
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 4375,
+                  "name": "Sun Chips Mix Masala 20 gm",
+                  "subtext": "20 gm",
+                  "slug": "sun-chips-mix-masala-20-gm",
+                  "price": 20,
+                  "discounted_price": 20,
+                  "image_url": "https://chaldn.com/_mpimage/sun-chips-mix-masala-20-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D168336&q=best&v=1",
                   "category_ids": [
                     53
                   ],
@@ -15923,7 +15342,7 @@
                   "slug": "dan-cake-dry-cake-280-gm",
                   "price": 200,
                   "discounted_price": 200,
-                  "image_url": "https://chaldn.com/_mpimage/dan-cake-dry-cake-300-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D133280&q=best&v=1&m=400",
+                  "image_url": "https://chaldn.com/_mpimage/dan-cake-dry-cake-300-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D133280&q=best&v=1",
                   "category_ids": [
                     196
                   ],
@@ -19050,20 +18469,6 @@
               "country_of_origin": "BD"
             },
             {
-              "id": 16867,
-              "name": "Rin Washing Liquid 800 ml",
-              "subtext": "800 ml",
-              "slug": "rin-washing-liquid-800-ml",
-              "price": 220,
-              "discounted_price": 220,
-              "image_url": "https://chaldn.com/_mpimage/rin-washing-liquid-800-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165145&q=best&v=1",
-              "category_ids": [
-                86
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "BD"
-            },
-            {
               "id": 10464,
               "name": "Fast Wash Detergent Powder 1 kg",
               "subtext": "1 kg",
@@ -19071,6 +18476,20 @@
               "price": 180,
               "discounted_price": 180,
               "image_url": "https://chaldn.com/_mpimage/fast-wash-detergent-powder-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D128428&q=best&v=1",
+              "category_ids": [
+                86
+              ],
+              "is_age_restricted": false,
+              "country_of_origin": "BD"
+            },
+            {
+              "id": 16867,
+              "name": "Rin Washing Liquid 800 ml",
+              "subtext": "800 ml",
+              "slug": "rin-washing-liquid-800-ml",
+              "price": 220,
+              "discounted_price": 220,
+              "image_url": "https://chaldn.com/_mpimage/rin-washing-liquid-800-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D165145&q=best&v=1",
               "category_ids": [
                 86
               ],
@@ -23253,115 +22672,9 @@
           "name": "Box & Container",
           "cid": "1544",
           "has_arrow": false,
-          "url": "https://chaldal.com/box-container",
+          "url": null,
           "subcategories": [],
-          "products": [
-            {
-              "id": 29879,
-              "name": "RFL Super Hero Tiffin Box 1 pcs",
-              "subtext": "each",
-              "slug": "rfl-super-hero-tiffin-box-1-pcs",
-              "price": 100,
-              "discounted_price": 100,
-              "image_url": "https://chaldn.com/_mpimage/rfl-super-hero-tiffin-box-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D96365&q=best&v=1&m=400",
-              "category_ids": [
-                85,
-                1544
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": ""
-            },
-            {
-              "id": 29877,
-              "name": "RFL Winner Tiffin Box Rectangular 1 pcs",
-              "subtext": "each",
-              "slug": "rfl-winner-tiffin-box-rectangular-1-pcs",
-              "price": 150,
-              "discounted_price": 150,
-              "image_url": "https://chaldn.com/_mpimage/rfl-winner-tiffin-box-rectangular-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132894&q=best&v=1&m=400",
-              "category_ids": [
-                85,
-                1544
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "BD"
-            },
-            {
-              "id": 29657,
-              "name": "RFL Cherry Container Trans Set 3 pcs",
-              "subtext": "3 pcs",
-              "slug": "rfl-cherry-container-trans-set-3-pcs",
-              "price": 310,
-              "discounted_price": 310,
-              "image_url": "https://chaldn.com/_mpimage/rfl-cherry-container-trans-set-3-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132706&q=best&v=1&m=400",
-              "category_ids": [
-                85,
-                1544
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "BD"
-            },
-            {
-              "id": 29644,
-              "name": "RFL Classic Round Container Trans Set 5 pcs",
-              "subtext": "5 pcs",
-              "slug": "rfl-classic-round-container-trans-set-5-pcs",
-              "price": 190,
-              "discounted_price": 190,
-              "image_url": "https://chaldn.com/_mpimage/rfl-classic-round-container-trans-set-5-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132708&q=best&v=1&m=400",
-              "category_ids": [
-                85,
-                1544
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "BD"
-            },
-            {
-              "id": 27741,
-              "name": "Npoly Round Food Box 3 pcs",
-              "subtext": "3 pcs",
-              "slug": "npoly-round-food-box-3-pcs",
-              "price": 255,
-              "discounted_price": 255,
-              "image_url": "https://chaldn.com/_mpimage/npoly-round-food-box-3-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D148458&q=best&v=1&m=400",
-              "category_ids": [
-                85,
-                1544
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "BD"
-            },
-            {
-              "id": 27728,
-              "name": "Npoly Printed Container (Tr Pink) 15 ltr 1 pcs",
-              "subtext": "each",
-              "slug": "npoly-printed-container-tr-pink-15-ltr-1-pcs",
-              "price": 270,
-              "discounted_price": 270,
-              "image_url": "https://chaldn.com/_mpimage/npoly-printed-container-tr-pink-15-ltr-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D151632&q=best&v=1",
-              "category_ids": [
-                91,
-                1544
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "BD"
-            },
-            {
-              "id": 27727,
-              "name": "Npoly Printed Container (Tr Pink) 10 ltr 1 pcs",
-              "subtext": "each",
-              "slug": "npoly-printed-container-tr-pink-10-ltr-1-pcs",
-              "price": 195,
-              "discounted_price": 195,
-              "image_url": "https://chaldn.com/_mpimage/npoly-printed-container-tr-pink-10-ltr-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D151631&q=best&v=1",
-              "category_ids": [
-                91,
-                1544
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "BD"
-            }
-          ]
+          "products": []
         },
         {
           "name": "Gardening",
@@ -25501,178 +24814,7 @@
           "has_arrow": false,
           "url": "https://chaldal.com/baby-oral-care",
           "subcategories": [],
-          "products": [
-            {
-              "id": 10488,
-              "name": "Meril Baby Gel Orange Toothpaste 45 gm",
-              "subtext": "45 gm",
-              "slug": "meril-baby-gel-orange-toothpaste-45-gm",
-              "price": 100,
-              "discounted_price": 100,
-              "image_url": "https://chaldn.com/_mpimage/meril-baby-gel-orange-toothpaste-45-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D136574&q=best&v=1",
-              "category_ids": [
-                1379
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "BD"
-            },
-            {
-              "id": 27070,
-              "name": "Pepsodent Toothpaste Kids Strawbery 45 gm",
-              "subtext": "45 gm",
-              "slug": "pepsodent-toothpaste-kids-strawbery-45-gm",
-              "price": 90,
-              "discounted_price": 90,
-              "image_url": "https://chaldn.com/_mpimage/pepsodent-toothpaste-kids-strawbery-45-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132053&q=best&v=1&m=400",
-              "category_ids": [
-                1379
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "BD"
-            },
-            {
-              "id": 27069,
-              "name": "Pepsodent Awesome Orange Toothpaste 45 gm",
-              "subtext": "45 gm",
-              "slug": "pepsodent-awesome-orange-toothpaste-45-gm",
-              "price": 90,
-              "discounted_price": 85,
-              "image_url": "https://chaldn.com/_mpimage/pepsodent-awesome-orange-toothpaste-45-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D128294&q=best&v=1",
-              "category_ids": [
-                1379,
-                1613
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "BD"
-            },
-            {
-              "id": 24156,
-              "name": "Aquafresh Baby Paste (6-8 years) 50 ml",
-              "subtext": "50 ml",
-              "slug": "aquafresh-baby-paste-6-8-years-50-ml",
-              "price": 325,
-              "discounted_price": 325,
-              "image_url": "https://chaldn.com/_mpimage/aquafresh-baby-paste-6-8-years-50-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D123472&q=best&v=1&m=400",
-              "category_ids": [
-                1379
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": ""
-            },
-            {
-              "id": 23605,
-              "name": "Parachute Just For Baby Toothpaste (Mix Fruit) 45 gm",
-              "subtext": "45 gm",
-              "slug": "parachute-just-for-baby-toothpaste-mix-fruit-45-gm",
-              "price": 100,
-              "discounted_price": 100,
-              "image_url": "https://chaldn.com/_mpimage/parachute-just-for-baby-toothpaste-mix-fruit-45-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D110366&q=best&v=1&m=400",
-              "category_ids": [
-                1379
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "BD"
-            },
-            {
-              "id": 12802,
-              "name": "Farlin Baby Floss Toothpick 50 pcs",
-              "subtext": "50 pcs",
-              "slug": "farlin-baby-floss-toothpic-50-pcs",
-              "price": 229,
-              "discounted_price": 229,
-              "image_url": "https://chaldn.com/_mpimage/farlin-baby-floss-toothpick-50-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D109138&q=best&v=1",
-              "category_ids": [
-                1379,
-                1378
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "TW"
-            },
-            {
-              "id": 11181,
-              "name": "Colgate Baby Strawberry Toothpaste (0-2 years) 50 ml",
-              "subtext": "50 ml",
-              "slug": "colgate-baby-strawberry-toothpaste-0-2-years-50-ml",
-              "price": 368,
-              "discounted_price": 368,
-              "image_url": "https://chaldn.com/_mpimage/colgate-baby-strawberry-toothpaste-0-2-years-50-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D127080&q=best&v=1&m=400",
-              "category_ids": [
-                1379
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "ID"
-            },
-            {
-              "id": 10763,
-              "name": "Meril Baby Toothbrush 1 pcs",
-              "subtext": "each",
-              "slug": "meril-baby-tooth-brush-1-pcs",
-              "price": 70,
-              "discounted_price": 70,
-              "image_url": "https://chaldn.com/_mpimage/meril-baby-toothbrush-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D130758&q=best&v=1&m=400",
-              "category_ids": [
-                1379
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "BD"
-            },
-            {
-              "id": 10523,
-              "name": "Meril Baby Gel Strawberry Toothpaste 45 gm",
-              "subtext": "45 gm",
-              "slug": "meril-baby-gel-strawberry-toothpaste-45-gm",
-              "price": 100,
-              "discounted_price": 100,
-              "image_url": "https://chaldn.com/_mpimage/meril-baby-gel-strawberry-toothpaste-45-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D136651&q=best&v=1",
-              "category_ids": [
-                1379
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "BD"
-            },
-            {
-              "id": 10428,
-              "name": "Aquafresh Little Teeth Toothpaste (3-5 Years) 50 ml",
-              "subtext": "50 ml",
-              "slug": "aquafresh-little-teeth-toothpaste-3-5-years-50-ml",
-              "price": 440,
-              "discounted_price": 440,
-              "image_url": "https://chaldn.com/_mpimage/aquafresh-little-teeth-toothpaste-3-5-years-50-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D65746&q=best&v=1",
-              "category_ids": [
-                1379
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "GB"
-            },
-            {
-              "id": 10089,
-              "name": "Kodomo Baby Toothpaste Strawberry Flavor 40 gm",
-              "subtext": "40 gm",
-              "slug": "kodomo-baby-toothpaste-strawberry-flavor-40-gm",
-              "price": 133,
-              "discounted_price": 133,
-              "image_url": "https://chaldn.com/_mpimage/kodomo-baby-toothpaste-strawberry-flavor-40-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D129839&q=best&v=1",
-              "category_ids": [
-                1379
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "TH"
-            },
-            {
-              "id": 10429,
-              "name": "Aquafresh Milk Teeth Toothpaste (0-2 Years) 50 ml",
-              "subtext": "50 ml",
-              "slug": "aquafresh-mild-minty-toothpaste-125-ml",
-              "price": 630,
-              "discounted_price": 459,
-              "image_url": "https://chaldn.com/_mpimage/aquafresh-milk-teeth-toothpaste-0-2-years-50-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D94007&q=best&v=1",
-              "category_ids": [
-                1379
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "GB"
-            }
-          ]
+          "products": []
         },
         {
           "name": "Newborn Essentials",
@@ -30260,7 +29402,7 @@
     }
   ],
   "_meta": {
-    "leaf_categories": 99,
-    "total_products": 1999
+    "leaf_categories": 96,
+    "total_products": 1941
   }
 }
