@@ -1,7 +1,7 @@
 {
   "store": "chaldal",
   "base_url": "https://chaldal.com",
-  "fetched_at": "2026-07-10T09:26:39Z",
+  "fetched_at": "2026-07-11T07:47:45Z",
   "categories": [
     {
       "name": "Popular",
@@ -392,6 +392,21 @@
           "country_of_origin": "BD"
         },
         {
+          "id": 7442,
+          "name": "Misti Kumra Fali (Sweet Pumpkin Slice) ± 40 gm 1 kg",
+          "subtext": "1 kg",
+          "slug": "sweet-pumpkin-1-slice",
+          "price": 55,
+          "discounted_price": 45,
+          "image_url": "https://chaldn.com/_mpimage/misti-kumra-fali-sweet-pumpkin-slice-40-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28900&q=low&v=1",
+          "category_ids": [
+            12,
+            238
+          ],
+          "is_age_restricted": false,
+          "country_of_origin": "BD"
+        },
+        {
           "id": 11694,
           "name": "Deshi Roshun (Garlic Local) ±25 gm 500 gm",
           "subtext": "500 gm",
@@ -407,13 +422,28 @@
           "country_of_origin": "BD"
         },
         {
-          "id": 7442,
-          "name": "Misti Kumra Fali (Sweet Pumpkin Slice) ± 40 gm 1 kg",
-          "subtext": "1 kg",
-          "slug": "sweet-pumpkin-1-slice",
-          "price": 55,
-          "discounted_price": 45,
-          "image_url": "https://chaldn.com/_mpimage/misti-kumra-fali-sweet-pumpkin-slice-40-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28900&q=low&v=1",
+          "id": 56615,
+          "name": "Kacha Morich (Green Chilli) ± 12 gm 100 gm",
+          "subtext": "100 gm",
+          "slug": "copy-of-kacha-morich-green-chilli-12-gm-100-gm",
+          "price": 15,
+          "discounted_price": 12,
+          "image_url": "https://chaldn.com/_mpimage/kacha-morich-green-chilli-12-gm-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D183023&q=low&v=1",
+          "category_ids": [
+            238,
+            12
+          ],
+          "is_age_restricted": false,
+          "country_of_origin": "BD"
+        },
+        {
+          "id": 6844,
+          "name": "Misti Alu (Sweet Potato) ± 25 gm 500 gm",
+          "subtext": "500 gm",
+          "slug": "sweet-potato-500-gm",
+          "price": 39,
+          "discounted_price": 39,
+          "image_url": "https://chaldn.com/_mpimage/misti-alu-sweet-potato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D54835&q=best&v=1",
           "category_ids": [
             12,
             238
@@ -437,16 +467,16 @@
           "country_of_origin": "BD"
         },
         {
-          "id": 56615,
-          "name": "Kacha Morich (Green Chilli) ± 12 gm 100 gm",
-          "subtext": "100 gm",
-          "slug": "copy-of-kacha-morich-green-chilli-12-gm-100-gm",
-          "price": 15,
-          "discounted_price": 12,
-          "image_url": "https://chaldn.com/_mpimage/kacha-morich-green-chilli-12-gm-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D183023&q=low&v=1",
+          "id": 6373,
+          "name": "Miniket Rice Premium (Boiled) ± 50 gm 5 kg",
+          "subtext": "5 kg",
+          "slug": "miniket-rice-premium-boiled-50-gm-5-kg",
+          "price": 439,
+          "discounted_price": 439,
+          "image_url": "https://chaldn.com/_mpimage/miniket-rice-premium-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48081&q=best&v=1",
           "category_ids": [
-            238,
-            12
+            80,
+            238
           ],
           "is_age_restricted": false,
           "country_of_origin": "BD"
@@ -468,13 +498,13 @@
           "country_of_origin": "BD"
         },
         {
-          "id": 6844,
-          "name": "Misti Alu (Sweet Potato) ± 25 gm 500 gm",
+          "id": 8102,
+          "name": "Deshi Ada (Local Ginger) ± 25 gm 500 gm",
           "subtext": "500 gm",
-          "slug": "sweet-potato-500-gm",
-          "price": 39,
-          "discounted_price": 39,
-          "image_url": "https://chaldn.com/_mpimage/misti-alu-sweet-potato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D54835&q=best&v=1",
+          "slug": "deshi-ada-local-ginger-25-gm-500-gm",
+          "price": 109,
+          "discounted_price": 75,
+          "image_url": "https://chaldn.com/_mpimage/deshi-ada-local-ginger-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163274&q=best&v=1",
           "category_ids": [
             12,
             238
@@ -483,28 +513,13 @@
           "country_of_origin": "BD"
         },
         {
-          "id": 6373,
-          "name": "Miniket Rice Premium (Boiled) ± 50 gm 5 kg",
-          "subtext": "5 kg",
-          "slug": "miniket-rice-premium-boiled-50-gm-5-kg",
-          "price": 439,
-          "discounted_price": 439,
-          "image_url": "https://chaldn.com/_mpimage/miniket-rice-premium-boiled-50-gm-5-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D48081&q=best&v=1",
-          "category_ids": [
-            80,
-            238
-          ],
-          "is_age_restricted": false,
-          "country_of_origin": "BD"
-        },
-        {
-          "id": 8102,
-          "name": "Deshi Ada (Local Ginger) ± 25 gm 500 gm",
-          "subtext": "500 gm",
-          "slug": "deshi-ada-local-ginger-25-gm-500-gm",
-          "price": 109,
-          "discounted_price": 75,
-          "image_url": "https://chaldn.com/_mpimage/deshi-ada-local-ginger-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163274&q=best&v=1",
+          "id": 5936,
+          "name": "Palong Shak (Palong Spinach) 1 bundle",
+          "subtext": "1 bundle",
+          "slug": "palong-spinach-1-bundle",
+          "price": 29,
+          "discounted_price": 29,
+          "image_url": "https://chaldn.com/_mpimage/palong-shak-palong-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28579&q=low&v=1",
           "category_ids": [
             12,
             238
@@ -528,13 +543,13 @@
           "country_of_origin": "BD"
         },
         {
-          "id": 5936,
-          "name": "Palong Shak (Palong Spinach) 1 bundle",
-          "subtext": "1 bundle",
-          "slug": "palong-spinach-1-bundle",
-          "price": 29,
-          "discounted_price": 29,
-          "image_url": "https://chaldn.com/_mpimage/palong-shak-palong-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28579&q=low&v=1",
+          "id": 6298,
+          "name": "Shosha (Cucumber) ± 25 gm 500 gm",
+          "subtext": "500 gm",
+          "slug": "cucumber-net-weight-20-gm-500-gm",
+          "price": 45,
+          "discounted_price": 35,
+          "image_url": "https://chaldn.com/_mpimage/shosha-cucumber-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64357&q=best&v=1",
           "category_ids": [
             12,
             238
@@ -543,13 +558,13 @@
           "country_of_origin": "BD"
         },
         {
-          "id": 6298,
-          "name": "Shosha (Cucumber) ± 25 gm 500 gm",
+          "id": 5930,
+          "name": "Chichinga (Snake Gourd) ± 25 gm 500 gm",
           "subtext": "500 gm",
-          "slug": "cucumber-net-weight-20-gm-500-gm",
+          "slug": "snake-gourd-net-weight-20-gm-500-gm",
           "price": 45,
-          "discounted_price": 35,
-          "image_url": "https://chaldn.com/_mpimage/shosha-cucumber-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64357&q=best&v=1",
+          "discounted_price": 29,
+          "image_url": "https://chaldn.com/_mpimage/chichinga-snake-gourd-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28583&q=low&v=1",
           "category_ids": [
             12,
             238
@@ -568,21 +583,6 @@
           "category_ids": [
             238,
             107
-          ],
-          "is_age_restricted": false,
-          "country_of_origin": "BD"
-        },
-        {
-          "id": 5930,
-          "name": "Chichinga (Snake Gourd) ± 25 gm 500 gm",
-          "subtext": "500 gm",
-          "slug": "snake-gourd-net-weight-20-gm-500-gm",
-          "price": 45,
-          "discounted_price": 29,
-          "image_url": "https://chaldn.com/_mpimage/chichinga-snake-gourd-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28583&q=low&v=1",
-          "category_ids": [
-            12,
-            238
           ],
           "is_age_restricted": false,
           "country_of_origin": "BD"
@@ -1285,21 +1285,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 11694,
-                  "name": "Deshi Roshun (Garlic Local) ±25 gm 500 gm",
-                  "subtext": "500 gm",
-                  "slug": "garlic-local-net-weight-10-gm-500-gm",
-                  "price": 59,
-                  "discounted_price": 59,
-                  "image_url": "https://chaldn.com/_mpimage/deshi-roshun-garlic-local-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D89990&q=best&v=1",
-                  "category_ids": [
-                    12,
-                    238
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 7442,
                   "name": "Misti Kumra Fali (Sweet Pumpkin Slice) ± 40 gm 1 kg",
                   "subtext": "1 kg",
@@ -1315,16 +1300,16 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 5599,
-                  "name": "Kacha Pepe (Green Papaya) ± 70 gm 1.4 kg",
-                  "subtext": "1.4 kg",
-                  "slug": "papaya-14-kg",
-                  "price": 85,
+                  "id": 11694,
+                  "name": "Deshi Roshun (Garlic Local) ±25 gm 500 gm",
+                  "subtext": "500 gm",
+                  "slug": "garlic-local-net-weight-10-gm-500-gm",
+                  "price": 59,
                   "discounted_price": 59,
-                  "image_url": "https://chaldn.com/_mpimage/kacha-pepe-green-papaya-70-gm-14-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D69930&q=low&v=1",
+                  "image_url": "https://chaldn.com/_mpimage/deshi-roshun-garlic-local-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D89990&q=best&v=1",
                   "category_ids": [
-                    238,
-                    12
+                    12,
+                    238
                   ],
                   "is_age_restricted": false,
                   "country_of_origin": "BD"
@@ -1355,6 +1340,21 @@
                   "category_ids": [
                     12,
                     238
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 5599,
+                  "name": "Kacha Pepe (Green Papaya) ± 70 gm 1.4 kg",
+                  "subtext": "1.4 kg",
+                  "slug": "papaya-14-kg",
+                  "price": 85,
+                  "discounted_price": 59,
+                  "image_url": "https://chaldn.com/_mpimage/kacha-pepe-green-papaya-70-gm-14-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D69930&q=low&v=1",
+                  "category_ids": [
+                    238,
+                    12
                   ],
                   "is_age_restricted": false,
                   "country_of_origin": "BD"
@@ -1434,6 +1434,20 @@
                   "country_of_origin": "BD"
                 },
                 {
+                  "id": 16371,
+                  "name": "Fulkopi (Cauliflower) 1 pcs",
+                  "subtext": "each",
+                  "slug": "cauliflower-b-grade-1-pcs-2",
+                  "price": 80,
+                  "discounted_price": 75,
+                  "image_url": "https://chaldn.com/_mpimage/fulkopi-cauliflower-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D46971&q=best&v=1",
+                  "category_ids": [
+                    12
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
                   "id": 5602,
                   "name": "Gol Lebu (Round Lemon) 4 pcs",
                   "subtext": "4 pcs",
@@ -1443,20 +1457,6 @@
                   "image_url": "https://chaldn.com/_mpimage/gol-lebu-round-lemon-4-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D54834&q=low&v=1",
                   "category_ids": [
                     238,
-                    12
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
-                  "id": 16371,
-                  "name": "Fulkopi (Cauliflower) 1 pcs",
-                  "subtext": "each",
-                  "slug": "cauliflower-b-grade-1-pcs-2",
-                  "price": 80,
-                  "discounted_price": 75,
-                  "image_url": "https://chaldn.com/_mpimage/fulkopi-cauliflower-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D46971&q=best&v=1",
-                  "category_ids": [
                     12
                   ],
                   "is_age_restricted": false,
@@ -1562,20 +1562,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 6228,
-                  "name": "Pui Shak (Pui Spinach) 1 bundle",
-                  "subtext": "1 bundle",
-                  "slug": "pui-shak-pui-spinach1-bundle",
-                  "price": 45,
-                  "discounted_price": 39,
-                  "image_url": "https://chaldn.com/_mpimage/pui-shak-pui-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7071&q=low&v=1",
-                  "category_ids": [
-                    12
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 5595,
                   "name": "Lomba Kalo Begun (Long Brinjal Black) ± 25 gm 500 gm",
                   "subtext": "500 gm",
@@ -1590,13 +1576,13 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 6226,
-                  "name": "Kacha Kola (Banana Green) 4 pcs",
-                  "subtext": "4 pcs",
-                  "slug": "banana-green-4-pcs",
-                  "price": 65,
-                  "discounted_price": 55,
-                  "image_url": "https://chaldn.com/_mpimage/kacha-kola-banana-green-4-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D183804&q=low&v=1",
+                  "id": 6228,
+                  "name": "Pui Shak (Pui Spinach) 1 bundle",
+                  "subtext": "1 bundle",
+                  "slug": "pui-shak-pui-spinach1-bundle",
+                  "price": 45,
+                  "discounted_price": 39,
+                  "image_url": "https://chaldn.com/_mpimage/pui-shak-pui-spinach-1-bundle?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7071&q=low&v=1",
                   "category_ids": [
                     12
                   ],
@@ -1611,6 +1597,20 @@
                   "price": 45,
                   "discounted_price": 45,
                   "image_url": "https://chaldn.com/_mpimage/kochur-mukhi-taro-roots-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28965&q=low&v=1",
+                  "category_ids": [
+                    12
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 6226,
+                  "name": "Kacha Kola (Banana Green) 4 pcs",
+                  "subtext": "4 pcs",
+                  "slug": "banana-green-4-pcs",
+                  "price": 65,
+                  "discounted_price": 55,
+                  "image_url": "https://chaldn.com/_mpimage/kacha-kola-banana-green-4-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D183804&q=low&v=1",
                   "category_ids": [
                     12
                   ],
@@ -1646,20 +1646,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 9589,
-                  "name": "Dhundhul (Sponge Gourd) ±20 gm 500 gm",
-                  "subtext": "500 gm",
-                  "slug": "sponge-gourd-dhundul-500-gm",
-                  "price": 45,
-                  "discounted_price": 35,
-                  "image_url": "https://chaldn.com/_mpimage/dhundhul-sponge-gourd-20-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D77228&q=low&v=1",
-                  "category_ids": [
-                    12
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 13677,
                   "name": "Data Shak (Data Spinach) 1 bundle",
                   "subtext": "1 bundle",
@@ -1674,13 +1660,13 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 6304,
-                  "name": "Lal Alu (Red Potato) ± 25 gm 500 gm",
+                  "id": 9589,
+                  "name": "Dhundhul (Sponge Gourd) ±20 gm 500 gm",
                   "subtext": "500 gm",
-                  "slug": "red-potato-bogra-alu-500-gm",
-                  "price": 29,
-                  "discounted_price": 29,
-                  "image_url": "https://chaldn.com/_mpimage/lal-alu-red-potato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D93643&q=best&v=1",
+                  "slug": "sponge-gourd-dhundul-500-gm",
+                  "price": 45,
+                  "discounted_price": 35,
+                  "image_url": "https://chaldn.com/_mpimage/dhundhul-sponge-gourd-20-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D77228&q=low&v=1",
                   "category_ids": [
                     12
                   ],
@@ -1702,18 +1688,18 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 51002,
-                  "name": "Roshun (Garlic Imported) ± 25 gm 250 gm",
-                  "subtext": "250 gm",
-                  "slug": "roshun-garlic-imported-25-gm-250-gm",
-                  "price": 55,
-                  "discounted_price": 39,
-                  "image_url": "https://chaldn.com/_mpimage/roshun-garlic-imported-25-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163966&q=best&v=1",
+                  "id": 6304,
+                  "name": "Lal Alu (Red Potato) ± 25 gm 500 gm",
+                  "subtext": "500 gm",
+                  "slug": "red-potato-bogra-alu-500-gm",
+                  "price": 29,
+                  "discounted_price": 29,
+                  "image_url": "https://chaldn.com/_mpimage/lal-alu-red-potato-25-gm-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D93643&q=best&v=1",
                   "category_ids": [
                     12
                   ],
                   "is_age_restricted": false,
-                  "country_of_origin": "CN"
+                  "country_of_origin": "BD"
                 },
                 {
                   "id": 6838,
@@ -1758,6 +1744,20 @@
                   "country_of_origin": "CN"
                 },
                 {
+                  "id": 51002,
+                  "name": "Roshun (Garlic Imported) ± 25 gm 250 gm",
+                  "subtext": "250 gm",
+                  "slug": "roshun-garlic-imported-25-gm-250-gm",
+                  "price": 55,
+                  "discounted_price": 39,
+                  "image_url": "https://chaldn.com/_mpimage/roshun-garlic-imported-25-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163966&q=best&v=1",
+                  "category_ids": [
+                    12
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "CN"
+                },
+                {
                   "id": 6224,
                   "name": "Mula (Radish) ± 25 gm 500 gm",
                   "subtext": "500 gm",
@@ -1772,20 +1772,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 5929,
-                  "name": "Lettuce Leaves ± 10 gm 100 gm",
-                  "subtext": "100 gm",
-                  "slug": "lettuce-1-pcs",
-                  "price": 55,
-                  "discounted_price": 39,
-                  "image_url": "https://chaldn.com/_mpimage/lettuce-leaves-10-gm-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28797&q=low&v=1",
-                  "category_ids": [
-                    12
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 8125,
                   "name": "Bombay Chilli 5 pcs",
                   "subtext": "5 pcs",
@@ -1793,6 +1779,20 @@
                   "price": 45,
                   "discounted_price": 29,
                   "image_url": "https://chaldn.com/_mpimage/bombay-chilli-5-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D120812&q=best&v=1",
+                  "category_ids": [
+                    12
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 5929,
+                  "name": "Lettuce Leaves ± 10 gm 100 gm",
+                  "subtext": "100 gm",
+                  "slug": "lettuce-1-pcs",
+                  "price": 55,
+                  "discounted_price": 39,
+                  "image_url": "https://chaldn.com/_mpimage/lettuce-leaves-10-gm-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D28797&q=low&v=1",
                   "category_ids": [
                     12
                   ],
@@ -1828,20 +1828,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 51003,
-                  "name": "Deshi Roshun (Garlic Local) ±25 gm 250 gm",
-                  "subtext": "250 gm",
-                  "slug": "deshi-roshun-garlic-local-25-gm-250-gm",
-                  "price": 35,
-                  "discounted_price": 35,
-                  "image_url": "https://chaldn.com/_mpimage/deshi-roshun-garlic-local-25-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163983&q=best&v=1",
-                  "category_ids": [
-                    12
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 6839,
                   "name": "Kacha Holud (Raw Turmeric) ± 12 gm 250 gm",
                   "subtext": "250 gm",
@@ -1849,6 +1835,20 @@
                   "price": 55,
                   "discounted_price": 45,
                   "image_url": "https://chaldn.com/_mpimage/kacha-holud-raw-turmeric-12-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D7662&q=low&v=1",
+                  "category_ids": [
+                    12
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 51003,
+                  "name": "Deshi Roshun (Garlic Local) ±25 gm 250 gm",
+                  "subtext": "250 gm",
+                  "slug": "deshi-roshun-garlic-local-25-gm-250-gm",
+                  "price": 35,
+                  "discounted_price": 35,
+                  "image_url": "https://chaldn.com/_mpimage/deshi-roshun-garlic-local-25-gm-250-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D163983&q=best&v=1",
                   "category_ids": [
                     12
                   ],
@@ -2023,20 +2023,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 9743,
-                  "name": "Komola (Orange) Imported ± 50 gm 1 kg",
-                  "subtext": "1 kg",
-                  "slug": "orange-1-kg",
-                  "price": 389,
-                  "discounted_price": 389,
-                  "image_url": "https://chaldn.com/_mpimage/komola-orange-imported-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64292&q=best&v=1",
-                  "category_ids": [
-                    11
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "ZA"
-                },
-                {
                   "id": 10052,
                   "name": "Shada Nashpati ± 50 gm (Pear White) 2 pcs",
                   "subtext": "2 pcs",
@@ -2049,6 +2035,20 @@
                   ],
                   "is_age_restricted": false,
                   "country_of_origin": "CN"
+                },
+                {
+                  "id": 9743,
+                  "name": "Komola (Orange) Imported ± 50 gm 1 kg",
+                  "subtext": "1 kg",
+                  "slug": "orange-1-kg",
+                  "price": 389,
+                  "discounted_price": 389,
+                  "image_url": "https://chaldn.com/_mpimage/komola-orange-imported-50-gm-1-kg?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D64292&q=best&v=1",
+                  "category_ids": [
+                    11
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "ZA"
                 },
                 {
                   "id": 10727,
@@ -4160,20 +4160,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 11940,
-                  "name": "Radhuni Chilli (Morich) Powder 50 gm",
-                  "subtext": "50 gm",
-                  "slug": "radhuni-chilli-morich-powder-50-gm",
-                  "price": 38,
-                  "discounted_price": 38,
-                  "image_url": "https://chaldn.com/_mpimage/radhuni-chilli-morich-powder-50-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132508&q=best&v=1",
-                  "category_ids": [
-                    107
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 4046,
                   "name": "Radhuni Coriander (Dhonia) Powder 500 gm",
                   "subtext": "500 gm",
@@ -4181,6 +4167,20 @@
                   "price": 240,
                   "discounted_price": 240,
                   "image_url": "https://chaldn.com/_mpimage/radhuni-coriander-dhonia-powder-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132514&q=best&v=1",
+                  "category_ids": [
+                    107
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 11940,
+                  "name": "Radhuni Chilli (Morich) Powder 50 gm",
+                  "subtext": "50 gm",
+                  "slug": "radhuni-chilli-morich-powder-50-gm",
+                  "price": 38,
+                  "discounted_price": 38,
+                  "image_url": "https://chaldn.com/_mpimage/radhuni-chilli-morich-powder-50-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D132508&q=best&v=1",
                   "category_ids": [
                     107
                   ],
@@ -6215,20 +6215,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 19855,
-                  "name": "Fresh Mustard Oil 500 ml",
-                  "subtext": "500 ml",
-                  "slug": "fresh-actifit-mustard-oil-500-ml",
-                  "price": 180,
-                  "discounted_price": 180,
-                  "image_url": "https://chaldn.com/_mpimage/fresh-mustard-oil-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D168881&q=best&v=1",
-                  "category_ids": [
-                    108
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 7604,
                   "name": "Fortune Fortified Rice Bran Oil 5 ltr",
                   "subtext": "5 ltr",
@@ -6236,6 +6222,20 @@
                   "price": 1210,
                   "discounted_price": 1210,
                   "image_url": "https://chaldn.com/_mpimage/fortune-fortified-rice-bran-oil-5-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D182968&q=best&v=1",
+                  "category_ids": [
+                    108
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 19855,
+                  "name": "Fresh Mustard Oil 500 ml",
+                  "subtext": "500 ml",
+                  "slug": "fresh-actifit-mustard-oil-500-ml",
+                  "price": 180,
+                  "discounted_price": 180,
+                  "image_url": "https://chaldn.com/_mpimage/fresh-mustard-oil-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D168881&q=best&v=1",
                   "category_ids": [
                     108
                   ],
@@ -13323,20 +13323,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 35885,
-                  "name": "Teer Puffed Rice (Muri) 500 gm",
-                  "subtext": "500 gm",
-                  "slug": "teer-puffed-rice-muri-400-gm",
-                  "price": 75,
-                  "discounted_price": 75,
-                  "image_url": "https://chaldn.com/_mpimage/teer-puffed-rice-muri-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D180272&q=best&v=1",
-                  "category_ids": [
-                    52
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 3921,
                   "name": "Pran Dal 20 gm (Net Weight ± 2 gm) 4 pcs",
                   "subtext": "4 pcs",
@@ -13415,6 +13401,20 @@
                   "price": 180,
                   "discounted_price": 180,
                   "image_url": "https://chaldn.com/_mpimage/dihan-salted-bakorkhani-400-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D125231&q=best&v=1",
+                  "category_ids": [
+                    52
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 35885,
+                  "name": "Teer Puffed Rice (Muri) 500 gm",
+                  "subtext": "500 gm",
+                  "slug": "teer-puffed-rice-muri-400-gm",
+                  "price": 75,
+                  "discounted_price": 75,
+                  "image_url": "https://chaldn.com/_mpimage/teer-puffed-rice-muri-500-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D180272&q=best&v=1",
                   "category_ids": [
                     52
                   ],
@@ -15496,6 +15496,21 @@
                   "price": 695,
                   "discounted_price": 695,
                   "image_url": "https://chaldn.com/_mpimage/royal-gardens-salted-cashews-150-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D148294&q=best&v=1",
+                  "category_ids": [
+                    8,
+                    56
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 27569,
+                  "name": "Royal Gardens Premium Nuts 100 gm",
+                  "subtext": "100 gm",
+                  "slug": "royal-gardens-premium-nuts-100-gm",
+                  "price": 350,
+                  "discounted_price": 350,
+                  "image_url": "https://chaldn.com/_mpimage/royal-gardens-premium-nuts-100-gm?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D101247&q=best&v=1",
                   "category_ids": [
                     8,
                     56
@@ -19727,20 +19742,6 @@
               "country_of_origin": "BD"
             },
             {
-              "id": 2290,
-              "name": "Lizol Disinfectant Surface & Floor Cleaner Citrus 500 ml",
-              "subtext": "500 ml",
-              "slug": "lizol-disinfectant-surface-floor-cleaner-citrus-500-ml",
-              "price": 160,
-              "discounted_price": 160,
-              "image_url": "https://chaldn.com/_mpimage/lizol-disinfectant-surface-floor-cleaner-citrus-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D179248&q=best&v=1",
-              "category_ids": [
-                1542
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "BD"
-            },
-            {
               "id": 5683,
               "name": "Lizol Floor Cleaner Citrus Disinfectant Surface 1 ltr",
               "subtext": "1 ltr",
@@ -19748,6 +19749,20 @@
               "price": 300,
               "discounted_price": 300,
               "image_url": "https://chaldn.com/_mpimage/lizol-floor-cleaner-citrus-disinfectant-surface-1-ltr?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D179249&q=best&v=1",
+              "category_ids": [
+                1542
+              ],
+              "is_age_restricted": false,
+              "country_of_origin": "BD"
+            },
+            {
+              "id": 2290,
+              "name": "Lizol Disinfectant Surface & Floor Cleaner Citrus 500 ml",
+              "subtext": "500 ml",
+              "slug": "lizol-disinfectant-surface-floor-cleaner-citrus-500-ml",
+              "price": 160,
+              "discounted_price": 160,
+              "image_url": "https://chaldn.com/_mpimage/lizol-disinfectant-surface-floor-cleaner-citrus-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D179248&q=best&v=1",
               "category_ids": [
                 1542
               ],
@@ -20226,20 +20241,6 @@
               "price": 230,
               "discounted_price": 230,
               "image_url": "https://chaldn.com/_mpimage/colin-glass-multisurface-cleaner-spray-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D186009&q=best&v=1",
-              "category_ids": [
-                1542
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "BD"
-            },
-            {
-              "id": 52118,
-              "name": "Mine Glass Cleaner (Free Mine Detergent 200 gm) 500 ml",
-              "subtext": "500 ml",
-              "slug": "mine-glass-cleaner-free-mine-detergent-200-gm-500-ml",
-              "price": 190,
-              "discounted_price": 190,
-              "image_url": "https://chaldn.com/_mpimage/mine-glass-cleaner-free-mine-detergent-200-gm-500-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D166966&q=best&v=1",
               "category_ids": [
                 1542
               ],
@@ -23502,6 +23503,20 @@
               "country_of_origin": "IN"
             },
             {
+              "id": 55824,
+              "name": "Malik Seeds Shosha Beej (Moynamoti) 1 pcs",
+              "subtext": "each",
+              "slug": "malik-seeds-shosha-beej-moynamoti-1-pcs",
+              "price": 60,
+              "discounted_price": 60,
+              "image_url": "https://chaldn.com/_mpimage/malik-seeds-shosha-beej-moynamoti-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D178771&q=best&v=1",
+              "category_ids": [
+                1527
+              ],
+              "is_age_restricted": false,
+              "country_of_origin": "TH"
+            },
+            {
               "id": 55823,
               "name": "Malik Seeds Dherosh beej (Shomy) 1 pcs",
               "subtext": "each",
@@ -26283,21 +26298,6 @@
                   "country_of_origin": "BD"
                 },
                 {
-                  "id": 15100,
-                  "name": "Sepnil Extra Mild Tea Oil Handwash Refill 170 ml",
-                  "subtext": "170 ml",
-                  "slug": "sepnil-extra-mild-tea-oil-handwash-refill-170-ml",
-                  "price": 75,
-                  "discounted_price": 75,
-                  "image_url": "https://chaldn.com/_mpimage/sepnil-extra-mild-tea-oil-handwash-refill-170-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D177869&q=best&v=1",
-                  "category_ids": [
-                    40,
-                    1638
-                  ],
-                  "is_age_restricted": false,
-                  "country_of_origin": "BD"
-                },
-                {
                   "id": 23261,
                   "name": "Dettol Handwash Re-Energize Liquid Refill 750 ml",
                   "subtext": "750 ml",
@@ -26309,6 +26309,21 @@
                     40,
                     1638,
                     1660
+                  ],
+                  "is_age_restricted": false,
+                  "country_of_origin": "BD"
+                },
+                {
+                  "id": 15100,
+                  "name": "Sepnil Extra Mild Tea Oil Handwash Refill 170 ml",
+                  "subtext": "170 ml",
+                  "slug": "sepnil-extra-mild-tea-oil-handwash-refill-170-ml",
+                  "price": 75,
+                  "discounted_price": 75,
+                  "image_url": "https://chaldn.com/_mpimage/sepnil-extra-mild-tea-oil-handwash-refill-170-ml?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D177869&q=best&v=1",
+                  "category_ids": [
+                    40,
+                    1638
                   ],
                   "is_age_restricted": false,
                   "country_of_origin": "BD"
@@ -27012,6 +27027,20 @@
               "country_of_origin": "BD"
             },
             {
+              "id": 2223,
+              "name": "Fay Facial Tissue Non-Perfume (150 X 2 ply) Box 1 pcs",
+              "subtext": "each",
+              "slug": "fay-facial-tissue-non-perfume-150-x-2-ply-box-1-pcs",
+              "price": 105,
+              "discounted_price": 105,
+              "image_url": "https://chaldn.com/_mpimage/fay-facial-tissue-non-perfume-150-x-2-ply-box-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D95808&q=best&v=1",
+              "category_ids": [
+                41
+              ],
+              "is_age_restricted": false,
+              "country_of_origin": "BD"
+            },
+            {
               "id": 15577,
               "name": "Fresh Toilet Tissue (Family Value Pack) 4 pcs",
               "subtext": "4 pcs",
@@ -27022,20 +27051,6 @@
               "category_ids": [
                 41,
                 87
-              ],
-              "is_age_restricted": false,
-              "country_of_origin": "BD"
-            },
-            {
-              "id": 2223,
-              "name": "Fay Facial Tissue Non-Perfume (150 X 2 ply) Box 1 pcs",
-              "subtext": "each",
-              "slug": "fay-facial-tissue-non-perfume-150-x-2-ply-box-1-pcs",
-              "price": 105,
-              "discounted_price": 105,
-              "image_url": "https://chaldn.com/_mpimage/fay-facial-tissue-non-perfume-150-x-2-ply-box-1-pcs?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D95808&q=best&v=1",
-              "category_ids": [
-                41
               ],
               "is_age_restricted": false,
               "country_of_origin": "BD"
@@ -29675,6 +29690,6 @@
   ],
   "_meta": {
     "leaf_categories": 99,
-    "total_products": 1958
+    "total_products": 1959
   }
 }
