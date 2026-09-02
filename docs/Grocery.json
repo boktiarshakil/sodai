@@ -1,7 +1,7 @@
 {
   "store": "chaldal",
   "base_url": "https://chaldal.com",
-  "fetched_at": "2026-09-01T10:59:39Z",
+  "fetched_at": "2026-09-02T10:41:03Z",
   "categories": [
     {
       "name": "Popular",
@@ -23,25 +23,321 @@
       "name": "Food",
       "cid": "2",
       "has_arrow": true,
-      "url": null,
-      "subcategories": [],
-      "products": []
+      "url": "https://chaldal.com/food",
+      "subcategories": [
+        {
+          "name": "Fruits & Vegetables",
+          "cid": "7",
+          "has_arrow": true,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Meat & Fish",
+          "cid": "23",
+          "has_arrow": true,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Cooking",
+          "cid": "104",
+          "has_arrow": true,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Sauces & Pickles",
+          "cid": "1631",
+          "has_arrow": true,
+          "url": "https://chaldal.com/sauces-pickles",
+          "subcategories": [
+            {
+              "name": "Tomato Sauces",
+              "cid": "1632",
+              "has_arrow": false,
+              "url": null,
+              "subcategories": [],
+              "products": []
+            },
+            {
+              "name": "Pickles",
+              "cid": "78",
+              "has_arrow": false,
+              "url": null,
+              "subcategories": [],
+              "products": []
+            },
+            {
+              "name": "Cooking Sauces",
+              "cid": "1703",
+              "has_arrow": false,
+              "url": null,
+              "subcategories": [],
+              "products": []
+            },
+            {
+              "name": "Other Table Sauces",
+              "cid": "1633",
+              "has_arrow": false,
+              "url": null,
+              "subcategories": [],
+              "products": []
+            }
+          ]
+        },
+        {
+          "name": "Dairy & Eggs",
+          "cid": "58",
+          "has_arrow": true,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Breakfast",
+          "cid": "14",
+          "has_arrow": true,
+          "url": "https://chaldal.com/breakfast",
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Candy & Chocolate",
+          "cid": "51",
+          "has_arrow": true,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Snacks",
+          "cid": "49",
+          "has_arrow": true,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Beverages",
+          "cid": "17",
+          "has_arrow": true,
+          "url": "https://chaldal.com/beverages",
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Baking",
+          "cid": "100",
+          "has_arrow": true,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Frozen & Canned",
+          "cid": "65",
+          "has_arrow": true,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Diabetic Food",
+          "cid": "191",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Ice Cream",
+          "cid": "71",
+          "has_arrow": false,
+          "url": "https://chaldal.com/ice-cream",
+          "subcategories": [],
+          "products": []
+        }
+      ]
     },
     {
       "name": "Cleaning Supplies",
       "cid": "81",
       "has_arrow": true,
-      "url": null,
-      "subcategories": [],
-      "products": []
+      "url": "https://chaldal.com/cleaning",
+      "subcategories": [
+        {
+          "name": "Dishwashing Supplies",
+          "cid": "83",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Laundry",
+          "cid": "86",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Toilet Cleaners",
+          "cid": "84",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Napkins & Paper Products",
+          "cid": "87",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Pest Control",
+          "cid": "88",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Floor & Glass Cleaners",
+          "cid": "1542",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Cleaning Accessories",
+          "cid": "1276",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Air Fresheners",
+          "cid": "82",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Disposables & Trash Bags",
+          "cid": "90",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Shoe Care",
+          "cid": "89",
+          "has_arrow": false,
+          "url": "https://chaldal.com/shoe-care",
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Trash Bin & Basket",
+          "cid": "1545",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        }
+      ]
     },
     {
       "name": "Home & Kitchen",
       "cid": "1240",
       "has_arrow": true,
-      "url": null,
-      "subcategories": [],
-      "products": []
+      "url": "https://chaldal.com/home-kitchen",
+      "subcategories": [
+        {
+          "name": "Kitchen Accessories",
+          "cid": "85",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Kitchen Appliances",
+          "cid": "1269",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Lights & Electrical",
+          "cid": "1267",
+          "has_arrow": true,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Tools & Hardware",
+          "cid": "1268",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Basket & Bucket",
+          "cid": "1543",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Box & Container",
+          "cid": "1544",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Gardening",
+          "cid": "1527",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Rack & Organizer",
+          "cid": "1541",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Disposables",
+          "cid": "1540",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        }
+      ]
     },
     {
       "name": "Fashion & Lifestyle",
@@ -55,7 +351,7 @@
       "name": "Baby Care",
       "cid": "209",
       "has_arrow": true,
-      "url": null,
+      "url": "https://chaldal.com/babycare",
       "subcategories": [],
       "products": []
     },
@@ -63,17 +359,129 @@
       "name": "Personal Care",
       "cid": "30",
       "has_arrow": true,
-      "url": null,
-      "subcategories": [],
-      "products": []
+      "url": "https://chaldal.com/personal-care",
+      "subcategories": [
+        {
+          "name": "Women's Care",
+          "cid": "1494",
+          "has_arrow": true,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Men's Care",
+          "cid": "1495",
+          "has_arrow": true,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Handwash",
+          "cid": "40",
+          "has_arrow": true,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Tissue & Wipes",
+          "cid": "41",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Oral Care",
+          "cid": "1697",
+          "has_arrow": true,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Skin Care",
+          "cid": "1698",
+          "has_arrow": true,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Talcom Powder",
+          "cid": "190",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Hair Color",
+          "cid": "1504",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        }
+      ]
     },
     {
       "name": "Stationery & Office",
       "cid": "3",
       "has_arrow": true,
-      "url": null,
-      "subcategories": [],
-      "products": []
+      "url": "https://chaldal.com/stationery-office",
+      "subcategories": [
+        {
+          "name": "Office Electronics",
+          "cid": "1530",
+          "has_arrow": true,
+          "url": "https://chaldal.com/office-electronics",
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Organizers",
+          "cid": "201",
+          "has_arrow": true,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Writing & Printing",
+          "cid": "113",
+          "has_arrow": true,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Paper Supplies",
+          "cid": "1529",
+          "has_arrow": true,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "School Supplies",
+          "cid": "1531",
+          "has_arrow": false,
+          "url": null,
+          "subcategories": [],
+          "products": []
+        },
+        {
+          "name": "Arts & Crafts",
+          "cid": "1475",
+          "has_arrow": true,
+          "url": "https://chaldal.com/arts-crafts",
+          "subcategories": [],
+          "products": []
+        }
+      ]
     },
     {
       "name": "Pet Care",
@@ -125,7 +533,7 @@
     }
   ],
   "_meta": {
-    "leaf_categories": 0,
+    "leaf_categories": 7,
     "total_products": 0
   }
 }
